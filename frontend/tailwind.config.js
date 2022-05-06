@@ -7,8 +7,11 @@ module.exports = {
     },
     extend: {},
     colors: {
-      // black: '#363636',
+      black: '#000000',
       // white: '#F9F9F9'
+      pink: '#D1A5AE',
+      purple: '#B076C9',
+      green: '#C1D9C2'
     }
   },
   variants: {
