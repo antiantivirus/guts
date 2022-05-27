@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-netlify-cms-blueprint',
+    title: 'GUTS',
     htmlAttrs: {
       lang: 'en'
     },
@@ -23,11 +23,13 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/typography.css',
     '@/assets/css/main.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '@/plugins/v-marquee.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -1,0 +1,22 @@
+/*
+dont set a base font size.
+this should be determined by the user as they may have changed it to help them browse the web.
+the default is 16px on most browsers/devices.
+Calculator: https://websemantics.uk/tools/responsive-font-calculator/
+use rem as it scales with the default font size.
+don't use em otherwise you might get yourself into a muddle!
+ */
+
+ @font-face {
+  font-family: 'PicNic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/PicNic-Regular.woff2") format("woff2"),
+       url("~assets/fonts/PicNic-Regular.woff") format("woff")
+}
+ 
+h1, .PicNic {
+  font-family: 'PicNic';
+}
+

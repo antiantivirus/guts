@@ -1,6 +1,9 @@
 <template>
   <div>
-    <Nuxt />
+    <Marquee />
+    <div class="mt-8">
+      <Nuxt />
+    </div>
   </div>
 </template>
 
