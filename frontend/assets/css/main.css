@@ -18,7 +18,7 @@ html, body {
 a, button {
   border: 7px solid #B076C9;
   border-radius: 43px;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 /* 'sm': '640px', */
@@ -28,7 +28,9 @@ a, button {
 
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
-  
+  a, button {
+    padding: 2rem 5rem 2rem 5rem;
+  }
 }
 
 /* 'xl': '1280px', */
