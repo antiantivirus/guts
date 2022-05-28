@@ -38,8 +38,8 @@ export default {
     },
 
     {
-      name: 'body',
-      title: 'Body',
+      name: 'content',
+      title: 'Content',
       type: 'blockContent',
     },
   ],

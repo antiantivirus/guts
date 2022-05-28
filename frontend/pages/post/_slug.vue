@@ -1,6 +1,7 @@
 <template>
   <div>
-    {{post}}
+    <h1>{{post.title}}</h1>
+    <SanityContent :blocks="post.content" />
   </div>
 </template>
 

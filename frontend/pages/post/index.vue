@@ -16,11 +16,11 @@
     },
     async asyncData({ $sanity, params }) {
       // const query = groq`*[_type == "post"]`;
-      const query = groq`*[_type == "post" && "Music" in categories[]->title]{
+      const query = groq`*[_type == "post" && $category in categories[]->slug]{
         title,
         slug
       }`
-      const posts = await $sanity.fetch(query);
+      const posts = await $sanity.fetch(query, { category: params.category });
       return { posts };
     },
   };
