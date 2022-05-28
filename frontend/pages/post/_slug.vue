@@ -1,6 +1,11 @@
 <template>
   <div>
+    {{post}}
     <h1>{{post.title}}</h1>
+    <SanityImage
+      :asset-id="post.mainImage.asset._ref"
+      auto="format"
+    />
     <SanityContent :blocks="post.content" />
   </div>
 </template>
