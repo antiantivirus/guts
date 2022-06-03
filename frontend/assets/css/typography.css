@@ -34,6 +34,11 @@ h2 {
   font-size: 1.4rem;
 }
 
+
+.marquee-text {
+  font-size: 1.8rem
+}
+
 /* 'sm': '640px', */
 @media (min-width: 640px) {
 }
@@ -43,6 +48,10 @@ h2 {
   h2 {
     font-size: 1.6rem;
    }
+
+  .marquee-text {
+    font-size: 2.2rem
+  }
 }
 
 /* 'xl': '1280px', */
@@ -55,6 +64,10 @@ h2 {
  h2 {
   font-size: 1.8rem;
  }
+
+ .marquee-text {
+  font-size: 3rem
+}
 }
 
 /* '3xl': '1920px', */

@@ -2,7 +2,7 @@
   <div class="wobble">
     <client-only>
       <marquee-text id="marquee" class="pt-6 pb-10 -mt-2" @mouseover="marqueePaused = true" @mouseleave="marqueePaused = false" :duration="400" :paused="marqueePaused">
-        <span class="text-5xl marquee-text PicNic">
+        <span class="marquee-text PicNic">
           &nbsp;&nbsp;&nbsp;&nbsp;
           The gut goes all the way from your head to your bottom...
           0.18g of CO2 was used to load this website...
