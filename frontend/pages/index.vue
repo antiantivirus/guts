@@ -13,7 +13,11 @@
         <a class="mx-2 lg:mx-auto text-center block PicNic text-3xl lg:text-5xl mt-6 lg:mt-12" href="" target="_blank">Book your tickets</a>
       </div>
     </div>
-    <h2 class="max-w-sm text-center mx-auto lg:hidden">GUTS is a transparent club night inviting you into the process blah blah blah blah blah blah blah blah blah blah blah blah</h2>
+    <h2 class="max-w-sm text-center mx-auto lg:hidden">
+      A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.
+        <br/>
+      Gut exploration and club night coming very soon… 
+    </h2>
   </div>
 </template>
 

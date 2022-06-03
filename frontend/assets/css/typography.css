@@ -31,6 +31,33 @@ h1, .PicNic {
 
 h2 {
   font-family: 'Blur';
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
+/* 'sm': '640px', */
+@media (min-width: 640px) {
+}
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 1.6rem;
+   }
+}
+
+/* 'xl': '1280px', */
+@media (min-width: 1280px) {
+
+}
+
+/* '2xl': '1536px', */
+@media (min-width: 1536px) {
+ h2 {
+  font-size: 1.8rem;
+ }
+}
+
+/* '3xl': '1920px', */
+@media (min-width: 1920px) {
+
+}
