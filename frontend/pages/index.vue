@@ -4,9 +4,12 @@
       <img class="drop-shadow-png lg:row-span-2 floating" src="~assets/img/guts.png" />
       <div class="lg:order-last order-first">
         <h1 class="title order-first lg:order-2">
-          <img class="drop-shadow-png" alt="guts" src="~assets/img/guts-logo.png"/>
+          <img class="drop-shadow-png" alt="guts" src="~assets/img/guts-logo-2.png"/>
         </h1>
-        <h2 class="max-w-sm text-center mx-auto hidden lg:block">GUTS is a transparent club night inviting you into the process blah blah blah blah blah blah blah blah blah blah blah blah</h2>
+        <h2 class="text-center mx-auto hidden lg:block">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.
+        <br/>
+        Gut exploration and club night coming very soon… 
+        </h2>
         <a class="mx-2 lg:mx-auto text-center block PicNic text-3xl lg:text-5xl mt-6 lg:mt-12" href="" target="_blank">Book your tickets</a>
       </div>
     </div>
