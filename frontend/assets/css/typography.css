@@ -15,13 +15,22 @@ don't use em otherwise you might get yourself into a muddle!
   src: url("~assets/fonts/PicNic-Regular.woff2") format("woff2"),
        url("~assets/fonts/PicNic-Regular.woff") format("woff")
 }
+
+@font-face {
+  font-family: 'Blur';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/BlurMedium.woff2") format("woff2"),
+       url("~assets/fonts/BlurMedium.woff") format("woff")
+}
  
 h1, .PicNic {
   font-family: 'PicNic';
 }
 
 h2 {
-  font-family: 'Helvetica';
+  font-family: 'Blur';
   font-size: 1.8rem;
 }
 

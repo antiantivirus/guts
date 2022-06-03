@@ -6,7 +6,7 @@
         <h1 class="title order-first lg:order-2">
           <img class="drop-shadow-png" alt="guts" src="~assets/img/guts-logo-2.png"/>
         </h1>
-        <h2 class="text-center mx-auto hidden lg:block">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.
+        <h2 class="lg:px-8 text-center mx-auto hidden lg:block">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.
         <br/>
         Gut exploration and club night coming very soon… 
         </h2>
