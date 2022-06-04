@@ -58,7 +58,7 @@ a:hover, button:hover {
 /* '2xl': '1536px', */
 @media (min-width: 1536px) {
   .container {
-    max-width: 1600px;
+    max-width: 1400px;
   }
 }
 
