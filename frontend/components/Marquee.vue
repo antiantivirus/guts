@@ -1,7 +1,7 @@
 <template>
   <div class="wobble">
     <client-only>
-      <marquee-text id="marquee" class="pt-6 pb-10 -mt-2" @mouseover="marqueePaused = true" @mouseleave="marqueePaused = false" :duration="400" :paused="marqueePaused">
+      <marquee-text id="marquee" class="pt-3 pb-5 md:pt-4 md:pb-10 xl:pb-12 -mt-2" @mouseover="marqueePaused = true" @mouseleave="marqueePaused = false" :duration="400" :paused="marqueePaused">
         <span class="marquee-text PicNic">
           &nbsp;&nbsp;&nbsp;&nbsp;
           The gut goes all the way from your head to your bottom...
