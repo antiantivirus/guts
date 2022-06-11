@@ -17,12 +17,12 @@ don't use em otherwise you might get yourself into a muddle!
 }
 
 @font-face {
-  font-family: 'Blur';
+  font-family: 'SerialB';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("~assets/fonts/BlurMedium.woff2") format("woff2"),
-       url("~assets/fonts/BlurMedium.woff") format("woff")
+  src: url("~assets/fonts/SerialB-BoldBlur.woff2") format("woff2"),
+       url("~assets/fonts/SerialB-BoldBlur.woff") format("woff")
 }
  
 h1, .PicNic {
@@ -30,7 +30,7 @@ h1, .PicNic {
 }
 
 h2 {
-  font-family: 'Blur';
+  font-family: 'SerialB';
   font-size: 1.4rem;
 }
 
