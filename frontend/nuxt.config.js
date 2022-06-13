@@ -46,7 +46,13 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/sanity/module'
   ],
+
+  sanity: {
+    projectId: 'kfk2lvr6',
+    dataset: "production"
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
