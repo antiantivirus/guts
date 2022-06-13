@@ -8,8 +8,8 @@ public_folder: /img
 media_library:
   name: cloudinary
   config:
-    cloud_name: dzdazwsbb
-    api_key: 333257441481544
+    cloud_name: dgen7ni45
+    api_key: 784532451416664
 
 collections:
   - name: 'post'
