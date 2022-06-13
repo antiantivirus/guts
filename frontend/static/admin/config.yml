@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: content
+  branch: holding
 
 # media_folder: static/img
 public_folder: /img
@@ -14,7 +14,7 @@ media_library:
 collections:
   - name: 'post'
     label: 'Post'
-    folder: 'content/post'
+    folder: 'frontend/content/post'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
@@ -35,7 +35,7 @@ collections:
         display_fields: ["title"]
   - name: 'category'
     label: 'Category'
-    folder: 'content/category'
+    folder: 'frontend/content/category'
     format: 'frontmatter'
     create: true
     slug: '{{slug}}'
