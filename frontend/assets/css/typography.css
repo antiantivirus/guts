@@ -1,0 +1,76 @@
+/*
+dont set a base font size.
+this should be determined by the user as they may have changed it to help them browse the web.
+the default is 16px on most browsers/devices.
+Calculator: https://websemantics.uk/tools/responsive-font-calculator/
+use rem as it scales with the default font size.
+don't use em otherwise you might get yourself into a muddle!
+ */
+
+ @font-face {
+  font-family: 'PicNic';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/PicNic-Regular.woff2") format("woff2"),
+       url("~assets/fonts/PicNic-Regular.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'SerialB';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("~assets/fonts/SerialB-BoldBlur.woff2") format("woff2"),
+       url("~assets/fonts/SerialB-BoldBlur.woff") format("woff")
+}
+ 
+h1, .PicNic {
+  font-family: 'PicNic';
+}
+
+h2 {
+  font-family: 'SerialB';
+  font-size: 1.4rem;
+}
+
+
+.marquee-text {
+  font-size: 1.8rem
+}
+
+/* 'sm': '640px', */
+@media (min-width: 640px) {
+}
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 1.6rem;
+   }
+
+  .marquee-text {
+    font-size: 2.2rem
+  }
+}
+
+/* 'xl': '1280px', */
+@media (min-width: 1280px) {
+
+}
+
+/* '2xl': '1536px', */
+@media (min-width: 1536px) {
+ h2 {
+  font-size: 1.8rem;
+ }
+
+ .marquee-text {
+  font-size: 3rem
+}
+}
+
+/* '3xl': '1920px', */
+@media (min-width: 1920px) {
+
+}

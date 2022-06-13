@@ -12,7 +12,8 @@
     "@nuxt/content": "^1.11.1",
     "@nuxtjs/sanity": "^0.10.0",
     "core-js": "^3.8.3",
-    "nuxt": "^2.14.12"
+    "nuxt": "^2.14.12",
+    "vue-marquee-text-component": "^1.2.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2"
