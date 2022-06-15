@@ -23,7 +23,7 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Sub-heading', name: 'subheading', widget: 'string' }- label: "Profile"
+      - { label: 'Sub-heading', name: 'subheading', widget: 'string' }
       - label: "Main image"
         name: "mainImage"
         widget: "object"
