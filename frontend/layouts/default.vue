@@ -1,6 +1,10 @@
 <template>
   <div>
-    <Marquee />
+    <div id="bg"></div>
+    <nuxt-link to="/">
+      <img class="mx-auto" id="logo" src="~assets/img/guts-logo.png"/>
+    </nuxt-link>
+    <!-- <Marquee /> -->
     <div class="mt-8">
       <Nuxt />
     </div>
@@ -61,5 +65,24 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+#bg {
+  background-image: url('~assets/img/background-compressed.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+  z-index: -1;
+}
+
+#logo {
+  max-width: 238px;
 }
 </style>

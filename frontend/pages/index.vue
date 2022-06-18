@@ -4,7 +4,7 @@
       <img class="drop-shadow-png xl:row-span-2 floating" src="~assets/img/gutsinside.png" />
       <div class="xl:order-last order-first">
         <h1 class="title order-first xl:px-8">
-          <img class="drop-shadow-png" alt="guts" src="~assets/img/guts-logo-2.png"/>
+          <!-- <img class="drop-shadow-png" alt="guts" src="~assets/img/guts-logo.png"/> -->
         </h1>
         <h2 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.
         <br/>
@@ -12,6 +12,7 @@
         Gut exploration and club night coming very soon… 
         </h2>
         <a class="mx-2 mx-auto text-center block PicNic text-3xl md:text-5xl mt-6 lg:mt-12" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
+        <nuxt-link to="/category">Poke around</nuxt-link>
       </div>
     </div>
     <!-- <h2 class="max-w-sm text-center mx-auto lg:hidden">

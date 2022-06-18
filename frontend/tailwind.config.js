@@ -11,7 +11,8 @@ module.exports = {
       // white: '#F9F9F9'
       pink: '#D1A5AE',
       purple: '#B076C9',
-      green: '#C1D9C2'
+      green: '#C1D9C2',
+      red: '#EE8282'
     }
   },
   variants: {
