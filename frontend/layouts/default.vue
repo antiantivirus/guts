@@ -8,7 +8,7 @@
     <div class="mt-8 invisible opacity-0" ref="content">
       <Nuxt />
     </div>
-    <footer class="mt-16 mb-16 invisible opacity-0" ref="footer">
+    <footer class="mt-16 mb-16" ref="footer">
       <img class="mx-auto footer-logo" src="~assets/img/YouthMusicxNumbers.svg" alt=""/>
     </footer>
   </div>
@@ -26,8 +26,8 @@ export default ({
       // this.$gsap.to(this.$refs.logo, { duration: 0.5, scale: 2, delay: 0 })
       this.$gsap.to(this.$refs.logo, { duration: 2, y: '-42vh', delay: 1, ease: 'Back.easeOut' })
       // this.$gsap.to(this.$refs.logo, { duration: 1, scale: 1, delay: 0.5 })
-      this.$gsap.to(this.$refs.content, { duration: 1, visibility:"visible", opacity: 1, delay: 1.5 })
-      this.$gsap.to(this.$refs.footer, { duration: 1, visibility:"visible", opacity: 1, delay: 1.75 })
+      this.$gsap.to(this.$refs.content, { duration: 0.5, visibility:"visible", opacity: 1, delay: 2.5 })
+      // this.$gsap.to(this.$refs.footer, { duration: 1, visibility:"visible", opacity: 1, delay: 1.75 })
     }
   }
 
