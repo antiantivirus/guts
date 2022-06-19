@@ -1,40 +1,40 @@
 <template>
-  <div class="h-100">
+  <div class="h-100 container">
     {{hovering}}
     <!-- {{categories}} -->
     <div id="promo" class="gut-element lg:absolute" @mouseenter="hovering = 'promo'" @mouseleave="hovering = null">
       <div class="relative w-full h-full">
-        <nuxt-link to="/category/promo"><img class="drop-shadow-png" src="~assets/img/guts/Brain-900.png" alt="Promo" /></nuxt-link>
-        <div class="lg:hidden lg:absolute info" :class="{'lg:block' : hovering == 'promo'}">
+        <nuxt-link to="/category/promo"><img class="drop-shadow-png" src="/guts/promo.png" alt="Promo" /></nuxt-link>
+        <div class="lg:absolute info" v-show="hovering == 'promo'">
           <h2>{{promo[0].title}}</h2>
-          {{promo[0].body}}
+          <Markdown>{{promo[0].body}}</Markdown>
         </div>
       </div>
     </div>
 
     <div id="venue" class="gut-element lg:absolute" @mouseenter="hovering = venue" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/venue"><img class="drop-shadow-png" src="~assets/img/guts/House-900.png" alt="Venue" /></nuxt-link>
+      <nuxt-link  to="/category/venue"><img class="drop-shadow-png" src="/guts/venue.png" alt="Venue" /></nuxt-link>
       <div>
         <h2>{{promo.title}}</h2>
       </div>
     </div>
 
     <div id="music" class="gut-element lg:absolute" @mouseenter="hovering = music" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/music"><img class="drop-shadow-png" src="~assets/img/guts/Music-Note-900.png" alt="Music" /></nuxt-link>
+      <nuxt-link  to="/category/music"><img class="drop-shadow-png" src="/guts/music.png" alt="Music" /></nuxt-link>
       <div>
         <h2>{{promo.title}}</h2>
       </div>
     </div>
 
     <div id="editorial" class="gut-element lg:absolute" @mouseenter="hovering = editorial" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/editorial"><img class="drop-shadow-png" src="~assets/img/guts/Pencil-900.png" alt="Editorial" /></nuxt-link>
+      <nuxt-link  to="/category/editorial"><img class="drop-shadow-png" src="/guts/editorial.png" alt="Editorial" /></nuxt-link>
       <div>
         <h2>{{promo.title}}</h2>
       </div>
     </div>
 
     <div id="budget" class="gut-element lg:absolute" @mouseenter="hovering = budget" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/budget"><img class="drop-shadow-png" src="~assets/img/guts/Pound-900.png" alt="Budget" /></nuxt-link>
+      <nuxt-link  to="/category/budget"><img class="drop-shadow-png" src="/guts/budget.png" alt="Budget" /></nuxt-link>
       <div>
         <h2>{{promo.title}}</h2>
       </div>

@@ -24,13 +24,17 @@ don't use em otherwise you might get yourself into a muddle!
   src: url("~assets/fonts/SerialB-BoldBlur.woff2") format("woff2"),
        url("~assets/fonts/SerialB-BoldBlur.woff") format("woff")
 }
+
+html, body {
+  font-family: 'SerialB';
+  font-weight: 300;
+}
  
 h1, .PicNic {
   font-family: 'PicNic';
 }
 
 h2 {
-  font-family: 'SerialB';
   font-size: 1.4rem;
 }
 
@@ -39,15 +43,32 @@ h2 {
   font-size: 1.8rem
 }
 
+p {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.article-content a {
+  text-decoration: underline;
+}
+
 /* 'sm': '640px', */
 @media (min-width: 640px) {
 }
 
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
-  h2 {
+  h1, .h1 {
+    font-size: 5rem;
+  }
+
+  h2, .h1 {
     font-size: 1.6rem;
-   }
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
 
   .marquee-text {
     font-size: 2.2rem

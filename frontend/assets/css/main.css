@@ -59,6 +59,11 @@ a:hover, button:hover {
   border-color: #EE8282;
 }
 
+.small-button {
+  border: 1px solid #000000;
+
+}
+
 /* 'sm': '640px', */
 @media (min-width: 640px) {
 
@@ -66,8 +71,12 @@ a:hover, button:hover {
 
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
-  a, button {
+  .large-padding {
     padding: 2rem 5rem 2rem 5rem;
+  }
+
+  .small-button, .padding {
+    padding: 1rem 2.5rem;
   }
 }
 

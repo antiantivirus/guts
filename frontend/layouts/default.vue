@@ -8,6 +8,9 @@
     <div class="mt-8">
       <Nuxt />
     </div>
+    <footer class="mt-16 mb-16">
+      <img class="mx-auto footer-logo" src="~assets/img/YouthMusicxNumbers.svg" alt=""/>
+    </footer>
   </div>
 </template>
 
@@ -82,7 +85,8 @@ html {
   z-index: -1;
 }
 
-#logo {
+#logo, #footer-logo {
   max-width: 238px;
 }
+
 </style>
