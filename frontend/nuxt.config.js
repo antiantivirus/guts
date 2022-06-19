@@ -40,6 +40,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    'nuxt-gsap-module'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -49,10 +50,11 @@ export default {
     '@nuxtjs/sanity/module'
   ],
 
-  sanity: {
-    projectId: 'kfk2lvr6',
-    dataset: "production"
-  },
+  // gsap: {
+  //   extraEases: {
+  //     Back: true
+  //   }
+  // },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
