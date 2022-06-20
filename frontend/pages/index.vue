@@ -3,14 +3,16 @@
     <div id="home-grid" class="grid xl:grid-cols-2 xl:content-center">
       <img class="drop-shadow-png xl:row-span-2 floating" src="~assets/img/gutsinside.png" />
       <div class="xl:order-last order-first">
-        <h1 class="title order-first xl:px-8">
-          <!-- <img class="drop-shadow-png" alt="guts" src="~assets/img/guts-logo.png"/> -->
-        </h1>
-        <h2 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.
-        <br/>
-        <br/>
-        Gut exploration and club night coming very soon… 
-        </h2>
+        <div class="rounded border-purple padding">
+          <!-- <h3 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.</h3> -->
+            <typewriter
+              :replace="replace"
+              :type-interval="100"
+              :replace-interval="1000"
+            >
+            <h2>...</h2>
+            </typewriter>
+        </div>
         <a class="mx-2 mx-auto text-center block PicNic text-3xl md:text-5xl mt-6 lg:mt-12" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
         <nuxt-link to="/category">Poke around</nuxt-link>
       </div>
@@ -24,12 +26,25 @@
 </template>
 
 <script>
+import Typewriter from "typewriter-vue";
+
 export default {
+  components: {
+    Typewriter,
+  },
   head() {
     return {
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
   },
+  data: () => ({
+    replace: [
+      { from: "...", to: "Hello and welcome to guts" },
+      { from: "Hello and welcome to guts", to: "It's nice to have you here :)" },
+      { from: "It's nice to have you here :)", to: "We are a club night with a difference." },
+      { from: "We are a club night with a difference.", to: "Prod and poke our internals to see how we work - from budgets, emails and assets to interviews with others working in electronic music." },
+    ],
+  }),
 };
 </script>
 
