@@ -6,22 +6,4 @@
 </template>
 
 <script>
-  import { groq } from '@nuxtjs/sanity';
-
-  export default {
-    computed: {
-      category(){
-        return this.$route.params.category
-      }
-    },
-    async asyncData({ $sanity, params }) {
-      // const query = groq`*[_type == "post"]`;
-      const query = groq`*[_type == "post" && $category in categories[]->slug]{
-        title,
-        slug
-      }`
-      const posts = await $sanity.fetch(query, { category: params.category });
-      return { posts };
-    },
-  };
 </script>

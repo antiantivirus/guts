@@ -1,13 +1,13 @@
 <template>
-  <div class="h-100 container">
+  <div class="lg:h-screen container">
     {{hovering}}
     <!-- {{categories}} -->
     <div id="promo" class="gut-element lg:absolute" @mouseenter="hovering = 'promo'" @mouseleave="hovering = null">
       <div class="relative w-full h-full">
         <nuxt-link to="/category/promo"><img class="drop-shadow-png" src="/guts/promo.png" alt="Promo" /></nuxt-link>
-        <div class="lg:absolute info" v-show="hovering == 'promo'">
+        <div class="lg:absolute gut-info rounded border-purple padding" v-show="hovering == 'promo'">
           <h2>{{promo[0].title}}</h2>
-          <Markdown>{{promo[0].body}}</Markdown>
+          <nuxt-content :document="venue" />
         </div>
       </div>
     </div>
@@ -87,8 +87,8 @@ export default ({
   }
 
   .gut-info {
-    bottom: 0%;
-    right: 0%;
+    bottom: -25%;
+    right: -25%;
   }
 
   #promo {

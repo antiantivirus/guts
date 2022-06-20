@@ -65,6 +65,28 @@ a:hover, button:hover {
 
 }
 
+.plaster {
+  max-width: 400px;
+  width: 50%;
+}
+
+
+/* transitions */
+
+.pop-down-enter-active {
+  transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.pop-down-leave-active {
+  transition: all 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.pop-down-enter-from,
+.pop-down-leave-to {
+  transform: translateY(-2px);
+  opacity: 0;
+}
+
 /* 'sm': '640px', */
 @media (min-width: 640px) {
 

@@ -3,8 +3,11 @@
     <!-- {{category}} -->
     <!-- {{posts}} -->
   <Category :category="category.slug"/>
-  <div class="rounded border-purple category-info lg:mr-8 lg:ml-auto padding -mt-4 mb-12">
-    <nuxt-content :document="category" />
+  <div class="category-info lg:mr-8 lg:ml-auto -mt-4 mb-16">
+    <img src="~assets/img/plaster5.png" class="plaster mx-auto -mb-4" style="transform: rotate(-6deg)"/>
+    <div class="rounded border-purple padding">
+      <nuxt-content :document="category" />
+    </div>
   </div>
   <div class="grid lg:grid-cols-2 gap-4 lg:gap-8 content-center">
     <nuxt-link class="post-element mx-auto" :to="`/post/${post.slug}`" v-for="post in posts" :key="post.slug">

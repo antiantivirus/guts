@@ -2,9 +2,11 @@
   <div>
     <div class="sticky top-0 category-picker z-40 mx-auto relative mb-6">
       <button @click="categoryDropdownOpen = !categoryDropdownOpen" class="rounded small-button block w-full z-50 cursor-s-resize">{{category}}</button>
-      <div class="w-full text-center absolute top-0 pt-16 pb-2 category-dropdown bg-white z-30" v-show='categoryDropdownOpen'>
-        <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/category/${category}`">{{category}}</nuxt-link>
-      </div>
+      <transition name="pop-down">
+        <div class="w-full text-center absolute top-0 pt-16 pb-2 category-dropdown bg-white z-30" v-show='categoryDropdownOpen'>
+          <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/category/${category}`">{{category}}</nuxt-link>
+        </div>
+      </transition>
     </div>
     <img class="mx-auto category-pic" :src="`/guts/${category}.png`" />
   </div>
