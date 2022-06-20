@@ -5,16 +5,12 @@
       <div class="xl:order-last order-first">
         <div class="rounded border-purple padding">
           <!-- <h3 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.</h3> -->
-            <typewriter
-              :replace="replace"
-              :type-interval="100"
-              :replace-interval="1000"
-            >
-            <h2>...</h2>
-            </typewriter>
+          <h2 ref="type"></h2>
         </div>
-        <a class="mx-2 mx-auto text-center block PicNic text-3xl md:text-5xl mt-6 lg:mt-12" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
-        <nuxt-link to="/category">Poke around</nuxt-link>
+        <div class="lg:grid lg:grid-cols-2">
+        <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-12" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
+        <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-12" to="/category">Poke around</nuxt-link>
+        </div>
       </div>
     </div>
     <!-- <h2 class="max-w-sm text-center mx-auto lg:hidden">
@@ -26,7 +22,7 @@
 </template>
 
 <script>
-import Typewriter from "typewriter-vue";
+import Typewriter from 'typewriter-effect/dist/core';
 
 export default {
   components: {
@@ -45,6 +41,39 @@ export default {
       { from: "We are a club night with a difference.", to: "Prod and poke our internals to see how we work - from budgets, emails and assets to interviews with others working in electronic music." },
     ],
   }),
+  mounted(){
+    var type = this.$refs.type;
+
+    var typewriter = new Typewriter(type, {
+      loop: true,
+      delay: 75,
+      cursor: ''
+    });
+
+    typewriter
+      .pauseFor(1500)
+      .typeString('Hello and welcome to guts')
+      .pauseFor(400)
+      .deleteAll(2)
+      .typeString("It's nice to have you here :)")
+      .pauseFor(400)
+      .deleteAll(4)
+      .typeString('We are a club night with a difference.')
+      .pauseFor(400)
+      .deleteAll(2)
+      .typeString("Prod and poke our internals to see how we work - from budgets, emails and assets to interviews with others working in electronic music.")
+      .pauseFor(400)
+      .deleteAll(3)
+      .typeString("0.18g of CO2 was used to load this website...")
+      .pauseFor(400)
+      .deleteAll(2)
+      .typeString("Lots of people have visited this site but you are our fave...")
+      .pauseFor(400)
+      .deleteAll(3)
+      .typeString("Bleep bloop...OOOWWWWWCCCHHH I stubbed my toe!...")
+      .pauseFor(400)
+      .start();
+      }
 };
 </script>
 
