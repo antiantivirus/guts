@@ -1,42 +1,56 @@
 <template>
   <div class="lg:h-screen container">
-    {{hovering}}
-    <!-- {{categories}} -->
     <div id="promo" class="gut-element lg:absolute" @mouseenter="hovering = 'promo'" @mouseleave="hovering = null">
-      <div class="relative w-full h-full">
-        <nuxt-link to="/category/promo"><img class="drop-shadow-png" src="/guts/promo.png" alt="Promo" /></nuxt-link>
-        <div class="lg:absolute gut-info rounded border-purple padding" v-show="hovering == 'promo'">
-          <h2>{{promo[0].title}}</h2>
-          <nuxt-content :document="venue" />
+      <nuxt-link to="/category/promo"><img class="drop-shadow-png" src="/guts/promo.png" alt="Promo" /></nuxt-link>
+      <transition name="pop-down">
+        <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'promo'">
+          <h2 class="mb-3 mt-1">{{promo[0].title}}</h2>
+          <nuxt-content :document="promo[0]" />
         </div>
-      </div>
+      </transition>
     </div>
 
-    <div id="venue" class="gut-element lg:absolute" @mouseenter="hovering = venue" @mouseleave="hovering = null">
+    <div id="venue" class="gut-element lg:absolute" @mouseenter="hovering = 'venue'" @mouseleave="hovering = null">
       <nuxt-link  to="/category/venue"><img class="drop-shadow-png" src="/guts/venue.png" alt="Venue" /></nuxt-link>
-      <div>
-        <h2>{{promo.title}}</h2>
-      </div>
+        <transition name="pop-down">
+          <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'venue'">
+            <h2 class="mb-3 mt-1">{{venue[0].title}}</h2>
+            <nuxt-content :document="venue[0]" />
+          </div>
+        </transition>
     </div>
 
-    <div id="music" class="gut-element lg:absolute" @mouseenter="hovering = music" @mouseleave="hovering = null">
+    <div id="music" class="gut-element lg:absolute" @mouseenter="hovering = 'music'" @mouseleave="hovering = null">
       <nuxt-link  to="/category/music"><img class="drop-shadow-png" src="/guts/music.png" alt="Music" /></nuxt-link>
-      <div>
-        <h2>{{promo.title}}</h2>
-      </div>
+        <transition name="pop-down">
+          <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'music'">
+            <h2 class="mb-3 mt-1">{{music[0].title}}</h2>
+            <nuxt-content :document="music[0]" />
+          </div>
+        </transition>
     </div>
 
-    <div id="editorial" class="gut-element lg:absolute" @mouseenter="hovering = editorial" @mouseleave="hovering = null">
+    <div id="editorial" class="gut-element lg:absolute" @mouseenter="hovering = 'editorial'" @mouseleave="hovering = null">
       <nuxt-link  to="/category/editorial"><img class="drop-shadow-png" src="/guts/editorial.png" alt="Editorial" /></nuxt-link>
       <div>
-        <h2>{{promo.title}}</h2>
+        <transition name="pop-down">
+          <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'editorial'">
+            <h2 class="mb-3 mt-1">{{editorial[0].title}}</h2>
+            <nuxt-content :document="editorial[0]" />
+          </div>
+        </transition>
       </div>
     </div>
 
-    <div id="budget" class="gut-element lg:absolute" @mouseenter="hovering = budget" @mouseleave="hovering = null">
+    <div id="budget" class="gut-element lg:absolute" @mouseenter="hovering = 'budget'" @mouseleave="hovering = null">
       <nuxt-link  to="/category/budget"><img class="drop-shadow-png" src="/guts/budget.png" alt="Budget" /></nuxt-link>
       <div>
-        <h2>{{promo.title}}</h2>
+        <transition name="pop-down">
+          <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'budget'">
+            <h2 class="mb-3 mt-1">{{budget[0].title}}</h2>
+            <nuxt-content :document="budget[0]" />
+          </div>
+        </transition>
       </div>
     </div>
   </div>
@@ -87,8 +101,10 @@ export default ({
   }
 
   .gut-info {
-    bottom: -25%;
+    margin-top: -25%;
     right: -25%;
+    width: 200%;
+    z-index: 40;
   }
 
   #promo {

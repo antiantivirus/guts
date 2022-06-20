@@ -83,7 +83,7 @@ a:hover, button:hover {
 
 .pop-down-enter-from,
 .pop-down-leave-to {
-  transform: translateY(-2px);
+  transform: translateY(-20px);
   opacity: 0;
 }
 
