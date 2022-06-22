@@ -1,15 +1,17 @@
 <template>
-  <div class="container">
+  <div class="xl:container mb-24 xl:mb-0">
     <div id="home-grid" class="grid xl:grid-cols-2 xl:content-center">
-      <img class="drop-shadow-png xl:row-span-2 floating" src="~assets/img/gutsinside.png" />
-      <div class="xl:order-last order-first">
-        <div class="rounded border-purple padding">
-          <!-- <h3 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.</h3> -->
-          <h2 ref="type"></h2>
-        </div>
-        <div class="lg:grid lg:grid-cols-2">
-        <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-12" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
-        <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-12" to="/category">Poke around</nuxt-link>
+      <img class="drop-shadow-png floating" src="~assets/img/gutsinside.png" />
+      <div class="flex justify-center flex-col">
+        <div>
+          <div id="speech-bubble" class="fixed w-screen bottom-0 xl:static xl:w-full rounded border-purple padding">
+            <!-- <h3 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.</h3> -->
+            <h2 ref="type"></h2>
+          </div>
+          <div class="lg:grid lg:grid-cols-2 lg:gap-2 lg:mt-2">
+          <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
+          <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" to="/category">Poke around</nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -33,14 +35,6 @@ export default {
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
   },
-  data: () => ({
-    replace: [
-      { from: "...", to: "Hello and welcome to guts" },
-      { from: "Hello and welcome to guts", to: "It's nice to have you here :)" },
-      { from: "It's nice to have you here :)", to: "We are a club night with a difference." },
-      { from: "We are a club night with a difference.", to: "Prod and poke our internals to see how we work - from budgets, emails and assets to interviews with others working in electronic music." },
-    ],
-  }),
   mounted(){
     var type = this.$refs.type;
 
@@ -51,8 +45,8 @@ export default {
     });
 
     typewriter
-      .pauseFor(1500)
-      .typeString('Hello and welcome to guts')
+      .pauseFor(1800)
+      .typeString('Hello and welcome to GUTS')
       .pauseFor(400)
       .deleteAll(2)
       .typeString("It's nice to have you here :)")
@@ -64,13 +58,13 @@ export default {
       .typeString("Prod and poke our internals to see how we work - from budgets, emails and assets to interviews with others working in electronic music.")
       .pauseFor(400)
       .deleteAll(3)
-      .typeString("0.18g of CO2 was used to load this website...")
+      .typeString("0.18g of CO2 was used to load this website.")
       .pauseFor(400)
       .deleteAll(2)
-      .typeString("Lots of people have visited this site but you are our fave...")
+      .typeString("Lots of people have visited this site but you are our fave.")
       .pauseFor(400)
       .deleteAll(3)
-      .typeString("Bleep bloop...OOOWWWWWCCCHHH I stubbed my toe!...")
+      .typeString("Bleep bloop...OOOWWWWWCCCHHH I stubbed my toe!")
       .pauseFor(400)
       .start();
       }
@@ -79,16 +73,15 @@ export default {
 
 <style scoped>
 
-/* 'lg': '1024px', */
-@media (min-width: 1024px) {
-  #home-grid {
-    height: calc(100vh - 14rem);
-  }
+#speech-bubble {
+  min-height: 20vh;
+  /* margin-left: -1rem; */
 }
 
 .floating {
   animation: float 8s infinite ease-in-out;
 }
+
 
 @keyframes float {
 	0% {
@@ -104,6 +97,24 @@ export default {
 		transform: translatey(10px);
 	}
 }
+
+/* 'lg': '1024px', */
+@media (min-width: 1024px) {
+  #home-grid {
+    height: calc(100vh - 350px);
+  }
+
+}
+
+/* 'xl': '1280px', */
+@media (min-width: 1280px) {
+
+  #speech-bubble {
+    min-height: 200px;
+    margin-left: 0rem;
+  }
+}
+
 
 </style>
 
