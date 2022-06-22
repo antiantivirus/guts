@@ -9,7 +9,7 @@
     <img src="~assets/img/plaster5.png" class="plaster mx-auto -mb-3 -mt-3" style="transform: rotate(8deg)"/>
     <div class="w-full rounded border-red large-padding">
       <div class="max-w-prose article-content">
-      <nuxt-content :document="post" />
+      <nuxt-content class="mt-6" :document="post" />
       </div>
     </div>
   </div>
