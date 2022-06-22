@@ -1,14 +1,16 @@
 <template>
   <div>
-    <div class="sticky top-0 category-picker z-40 mx-auto relative mb-6">
-      <button @click="categoryDropdownOpen = !categoryDropdownOpen" class="rounded small-button block w-full z-50 cursor-s-resize">{{category}}</button>
-      <transition name="pop-down">
-        <div class="w-full text-center absolute top-0 pt-16 pb-2 category-dropdown bg-white z-30" v-show='categoryDropdownOpen'>
-          <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/category/${category}`">{{category}}</nuxt-link>
-        </div>
-      </transition>
+    <div ref="category" class="absolute mx-auto category-picker z-40 mx-auto" :class="{'fixmeee' : scrolled}">
+      <div class="relative">
+        <button @click="categoryDropdownOpen = !categoryDropdownOpen" class="rounded small-button block w-full z-50 cursor-s-resize">{{category}}</button>
+        <transition name="pop-down">
+          <div class="w-full text-center absolute top-0 pt-16 pb-2 category-dropdown bg-white z-30" v-show='categoryDropdownOpen'>
+            <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/category/${category}`">{{category}}</nuxt-link>
+          </div>
+        </transition>
+      </div>
     </div>
-    <img class="mx-auto category-pic" :src="`/guts/${category}.png`" />
+    <img class="mx-auto category-pic mt-36" :src="`/guts/${category}.png`" />
   </div>
 </template>
 
@@ -23,15 +25,31 @@ export default ({
         'editorial',
         'budget'
       ],
-      categoryDropdownOpen: false
+      categoryDropdownOpen: false,
+      scrolled: null
     }
   },
   props: {
     category: String
   },
+  methods: {
+    onScroll(e) {
+      // this.scrolled =  /* or: e.target.documentElement.scrollTop */
+      if (window.top.scrollY > 120) {
+        this.scrolled = true
+      } else {
+        this.scrolled = false
+      }
+    }
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll)
+  },
   mounted() {
     //remove category that we are on from array
     this.categories.splice(this.categories.indexOf(this.category), 1)
+    window.addEventListener("scroll", this.onScroll)
+    this.onScroll()
   }
 })
 </script>
@@ -40,6 +58,14 @@ export default ({
 
 .category-picker {
   width: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 145px
+}
+
+.fixmeee {
+  position: fixed !important;
+  top: 25px !important;
 }
 
 .category-dropdown {
