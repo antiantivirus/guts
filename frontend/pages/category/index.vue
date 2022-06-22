@@ -126,8 +126,8 @@ export default ({
 @media (min-width: 1024px) {
 
   .gut-image {
-    max-width: unset;
-    max-height: unset;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .gut-element {
