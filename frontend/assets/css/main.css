@@ -70,6 +70,31 @@ a:hover, button:hover {
   width: 50%;
 }
 
+.button {
+  border-radius: 40px;
+  background: #D9D9D9;
+  border: 8px solid;
+  border-color: #EE8282;
+}
+
+.button {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.button:hover {
+  transform: rotate(5deg);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* padding */
+
+.large-padding {
+  padding: 1rem 1.5rem;
+}
+
+.small-button, .padding {
+  padding: 0.5rem 1rem;
+}
 
 /* transitions */
 
