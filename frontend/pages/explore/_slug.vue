@@ -35,7 +35,7 @@
 export default ({
   head() {
     return {
-      title: 'GUTS - ' + this.category.title,
+      title: this.category.title + '~ GUTS',
     }
   },
   async asyncData({ $content, params, error }) {

@@ -19,7 +19,7 @@
   export default {
     head() {
       return {
-        title: 'GUTS - ' + this.post.title,
+        title: this.post.title + '~ GUTS',
         meta: [
           {
             hid: 'description',
