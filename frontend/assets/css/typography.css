@@ -34,17 +34,25 @@ h1, .PicNic {
   font-family: 'PicNic';
 }
 
-h1 {
+h1, .h1 {
   font-size: 3rem;
 }
 
-h2 {
-  font-size: 1.4rem;
+h2, .h2 {
+  font-size: 1.6rem;
+}
+
+.h2-large, .h2-picnic {
+  font-size: 1.8rem;
 }
 
 .button {
   font-size: 1.6rem;
 }
+
+/* .small-button {
+  font-size: 1.2rem;
+} */
 
 .marquee-text {
   font-size: 1.8rem
@@ -76,6 +84,14 @@ p, .p {
     font-size: 1.6rem;
   }
 
+  .h2-large {
+    font-size: 1.8rem;
+  }
+
+  .h2-picnic {
+    font-size: 2.2rem;
+  }
+
   p, .p {
     font-size: 1.25rem;
   }
@@ -92,7 +108,7 @@ p, .p {
 
 /* '2xl': '1536px', */
 @media (min-width: 1536px) {
- h2 {
+ h2, .h2 {
   font-size: 1.8rem;
  }
 

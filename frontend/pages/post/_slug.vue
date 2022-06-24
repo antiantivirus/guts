@@ -17,17 +17,34 @@
 
 <script>
   export default {
-  async asyncData({ $content, params, error }) {
-    let post;
-    try {
-      post = await $content("post", params.slug).fetch();
-      // OR const article = await $content(`articles/${params.slug}`).fetch()
-    } catch (e) {
-      error({ message: "Project not found" });
-    } 
-    return {
-      post
-    };
-  },
+    head() {
+      return {
+        title: 'GUTS - ' + this.post.title,
+        meta: [
+          {
+            hid: 'description',
+            name: 'description',
+            content: this.post.subheading
+          },
+          {
+            hid: 'og:image',
+            property: 'og:image',
+            content: this.post.mainImage.src
+          }
+        ]
+      }
+    },
+    async asyncData({ $content, params, error }) {
+      let post;
+      try {
+        post = await $content("post", params.slug).fetch();
+        // OR const article = await $content(`articles/${params.slug}`).fetch()
+      } catch (e) {
+        error({ message: "Project not found" });
+      } 
+      return {
+        post
+      };
+    },
   };
 </script>

@@ -1,16 +1,16 @@
 <template>
-  <div class="xl:container mb-24 xl:mb-0">
+  <div class="xl:container mb-24 md:mb-72 xl:mb-0">
     <div id="home-grid" class="grid xl:grid-cols-2 xl:content-center">
-      <img class="drop-shadow-png floating" src="~assets/img/gutsinside.png" />
-      <div class="flex justify-center flex-col">
+      <img ref="character" id="character" class="drop-shadow-png floating max-w-lg mx-auto w-full" src="~assets/img/gutsinside.png" />
+      <div ref="bubble" class="flex justify-center flex-col">
         <div>
           <div id="speech-bubble" class="fixed w-screen bottom-0 xl:static xl:w-full rounded border-purple padding">
             <!-- <h3 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.</h3> -->
-            <h2 ref="type"></h2>
+            <h2 ref="type" class="h2-large"></h2>
           </div>
-          <div class="lg:grid lg:grid-cols-2 lg:gap-2 lg:mt-2">
+          <div class="grid xl:grid-cols-2 gap-2 xl:mt-2 max-w-lg mx-auto xl:max-w-none">
           <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
-          <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" to="/category">Poke around</nuxt-link>
+          <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" to="/explore" @click.native="enterGuts" >Poke around</nuxt-link>
           </div>
         </div>
       </div>
@@ -27,6 +27,9 @@
 import Typewriter from 'typewriter-effect/dist/core';
 
 export default {
+  transition: {
+    name: 'inside',
+  },
   components: {
     Typewriter,
   },
@@ -34,6 +37,13 @@ export default {
     return {
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
+  },
+  methods:{
+    enterGuts(){
+      this.$gsap.to(this.$refs.bubble, { duration: 1, opacity: 0, ease: 'easeOut' })
+      this.$gsap.to(this.$refs.character, { duration: 1, xPercent: 63, delay: 0.75, ease: 'easeOut' })
+      this.$gsap.to(this.$refs.character, { duration: 1.5, scale: 20, delay: 1.8, ease: 'easeOut' })
+    }
   },
   mounted(){
     var type = this.$refs.type;
@@ -79,7 +89,11 @@ export default {
 }
 
 .floating {
-  animation: float 8s infinite ease-in-out;
+  /* animation: float 8s infinite ease-in-out; */
+}
+
+#character {
+  transform-origin: 49% 60%;
 }
 
 
@@ -96,6 +110,19 @@ export default {
 		/* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
 		transform: translatey(10px);
 	}
+}
+
+.inside-leave-active {
+  transition: opacity 1s ease-in;
+  transition-delay: 2s;
+}
+
+.inside-enter-active {
+  transition: opacity 1s ease-in;
+}
+
+.inside-enter, .inside-leave-active {
+  opacity: 0; 
 }
 
 /* 'lg': '1024px', */

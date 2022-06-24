@@ -5,7 +5,7 @@
         <button @click="categoryDropdownOpen = !categoryDropdownOpen" class="rounded small-button block w-full z-50 cursor-s-resize">{{category}}</button>
         <transition name="pop-down">
           <div class="w-full text-center absolute top-0 pt-16 pb-2 category-dropdown bg-white z-30" v-show='categoryDropdownOpen'>
-            <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/category/${category}`">{{category}}</nuxt-link>
+            <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/explore/${category}`">{{category}}</nuxt-link>
           </div>
         </transition>
       </div>

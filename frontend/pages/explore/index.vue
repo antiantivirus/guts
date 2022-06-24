@@ -1,7 +1,7 @@
 <template>
-  <div class="lg:h-screen container">
+  <div id="the-gut" class="container relative">
     <div id="promo" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'promo'" @mouseleave="hovering = null">
-      <nuxt-link to="/category/promo">
+      <nuxt-link to="/explore/promo">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/promo.png" alt="Promo" />
         <transition name="pop-down">
           <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'promo'">
@@ -17,7 +17,7 @@
     </div>
 
     <div id="venue" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'venue'" @mouseleave="hovering = null">
-      <nuxt-link class="z-50" to="/category/venue">
+      <nuxt-link class="z-50" to="/explore/venue">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/venue.png" alt="Venue" />
         <transition name="pop-down">
           <div id="venue-info" class="relative gut-info rounded border-purple padding" v-show="hovering == 'venue'">
@@ -33,7 +33,7 @@
     </div>
 
     <div id="music" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'music'" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/music">
+      <nuxt-link  to="/explore/music">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/music.png" alt="Music" />
         <transition name="pop-down">
           <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'music'">
@@ -49,7 +49,7 @@
     </div>
 
     <div id="editorial" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'editorial'" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/editorial">
+      <nuxt-link  to="/explore/editorial">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/editorial.png" alt="Editorial" />
         <transition name="pop-down">
           <div id="editorial-info" class="relative gut-info rounded border-purple padding" v-show="hovering == 'editorial'">
@@ -65,7 +65,7 @@
     </div>
 
     <div id="budget" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'budget'" @mouseleave="hovering = null">
-      <nuxt-link  to="/category/budget">
+      <nuxt-link  to="/explore/budget">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/budget.png" alt="Budget" />
         <transition name="pop-down">
           <div id="budget-info" class="relative gut-info rounded border-purple padding" v-show="hovering == 'budget'">
@@ -87,6 +87,11 @@
 <script>
 
 export default ({
+  head() {
+    return {
+      title: 'INSIDE THE GUTS',
+    }
+  },
   data(){
     return {
       hovering: null
@@ -108,6 +113,17 @@ export default ({
       budget
     };
   },
+  mounted(){
+    const gutsAppear = this.$gsap.timeline()
+    gutsAppear.to('.gut-element', {
+      scale: 1,
+      ease: 'Back.easeOut',
+      delay: 0.5,
+      stagger: {
+        each: Math.random(),
+      }
+    })
+  }
 })
 </script>
 
@@ -125,16 +141,25 @@ export default ({
 /* 'lg': '1024px', */
 @media (min-width: 1024px) {
 
+  .gut-element {
+    transform: scale(0);
+  }
+
+  #the-gut {
+    height: calc(100vh - 200px);
+    max-height: 1200px;
+  }
+
   .gut-image {
     max-width: 100%;
     max-height: 100%;
   }
 
   .gut-element {
-    min-width: 150px;
-    min-height: 150px;
-    width: 10vw;
-    height: 10vw;
+    /* min-width: 150px; */
+    /* min-height: 150px; */
+    width: 12vw;
+    height: 12vw;
   }
 
   .gut-info {
@@ -146,9 +171,9 @@ export default ({
   }
 
   #editorial-info {
-    margin-top: 0%;
-    left: -70%;
-    top: -300%;
+    top: 0px;
+    left: 0px;
+    transform: translate(-50%, -135%);
   }
 
   #venue-info {
@@ -161,10 +186,9 @@ export default ({
   }
 
   #promo {
-    top: 10%;
-    left: 10%
+    top: 2%;
+    left: 4%
   }
-
 
   #venue {
     bottom: 10%;
@@ -172,14 +196,15 @@ export default ({
   }
 
   #music {
-    top: 20%;
+    top: 15%;
     left: 38%
   }
 
   #editorial {
     bottom: 12%;
     right: 20%;
-    width: 22vw;
+    width: 16vw;
+    height: 16vw;
   }
 
   #budget {
