@@ -120,7 +120,7 @@ export default ({
       ease: 'Back.easeOut',
       delay: 0.5,
       stagger: {
-        each: Math.random(),
+        each: 0.2,
       }
     })
   }

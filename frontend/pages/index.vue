@@ -10,7 +10,7 @@
           </div>
           <div class="grid xl:grid-cols-2 gap-2 xl:mt-2 max-w-lg mx-auto xl:max-w-none">
           <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
-          <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" to="/explore" @click.native="enterGuts" >Poke around</nuxt-link>
+          <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" to="/explore" >Poke around</nuxt-link>
           </div>
         </div>
       </div>
@@ -113,8 +113,7 @@ export default {
 }
 
 .inside-leave-active {
-  transition: opacity 1s ease-in;
-  transition-delay: 2s;
+  transition: opacity 2s ease-in;
 }
 
 .inside-enter-active {
