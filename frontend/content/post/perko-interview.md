@@ -12,41 +12,23 @@ category:
 ---
 Recorded on the 13th June 2022 outside Rafa's Diner, Glasgow
 
-
-
 Tom: It'd be great if you wouldn't mind just introducing yourself and all of the hats that you wear.
-
-
 
 Fergus/Perko: I'm Fergus. I make music as Perko. I run a label called Felt and we do some parties as well in Copenhagen.
 
-
-
 Tom: Would you give us a bit of a brief overview of how you entered the music industry and how you got to where you are?
 
-
-
-Fergus/Perko: I guess I was playing and I did classical violin for about 15 years maybe, and then I was playing in bad indie bands at high school. And then I think I downloaded Ableton because I want to record some of that. And I think Dead Mouse was using Ableton, who I liked. And then, yeah, the band all eventually left and it was just me and I just started making music for myself. And then when I moved to Glasgow, that's more like clubbing. And then my parents, they went to a night called [Pure](https://daily.redbullmusicacademy.com/2014/01/nightclubbing-pure-scotland) in Edinburgh where [JD Twitch](https://soundcloud.com/twitch) had a residency in the early nineties. So they were aware of clubbing I guess. My dad would play like [Jeff Mills](https://www.youtube.com/watch?v=eU-UsvYbIV0) mixes and stuff. Yeah. I moved to Glasgow and some of my friends from my hometown ran a night here called [Hex](https://www.facebook.com/hex.glasgow/?ref=page_internal). So I just hang out with them and go to their parties. And then I was just making electronic music in my student accommodation on [Murano Street](https://www.telegraph.co.uk/news/2020/09/25/like-prison-charged-extortionate-rent-rite-passage-becomes/).
-
-
+Fergus/Perko: I guess I was playing and I did classical violin for about 15 years maybe, and then I was playing in bad indie bands at high school. And then I think I downloaded Ableton because I want to record some of that. And I think [deadmau5](https://www.youtube.com/watch?v=T4ioZX-Exss) was using Ableton, who I liked. And then, yeah, the band all eventually left and it was just me and I just started making music for myself. And then when I moved to Glasgow, that's more like clubbing. And then my parents, they went to a night called [Pure](https://daily.redbullmusicacademy.com/2014/01/nightclubbing-pure-scotland) in Edinburgh where [JD Twitch](https://soundcloud.com/twitch) had a residency in the early nineties. So they were aware of clubbing I guess. My dad would play like [Jeff Mills](https://www.youtube.com/watch?v=eU-UsvYbIV0) mixes and stuff. Yeah. I moved to Glasgow and some of my friends from my hometown ran a night here called [Hex](https://www.facebook.com/hex.glasgow/?ref=page_internal). So I just hang out with them and go to their parties. And then I was just making electronic music in my student accommodation on [Murano Street](https://www.telegraph.co.uk/news/2020/09/25/like-prison-charged-extortionate-rent-rite-passage-becomes/).
 
 Tom: I was also there as well.
 
 Fergus/Perko: Really terrible.
 
-
-
 Tom: Yeah. Which block were you?
-
-
 
 Fergus/Perko: It was one of the new ones. I don't know. Yeah. Anyway, it was terrible. Yeah, I started making music there and did a couple of records and some music, uh, on a label called [Unknown to the Unknown](https://uttu.club/) under the name Bleaker. Uh, and then I stopped for a while because I wasn't really... I didn't stop making music, but I stopped releasing music because I was a bit uninterested in it, or I wasn't doing anything interesting. Yeah. And then, yeah, Shaun from Numbers asked me about music or demos or stuff, and I started sending them stuff. And then that became my first record on [Numbers](http://nmbrs.net/) called [NV Auto](https://perko.bandcamp.com/album/nv-auto), which I kind of mostly made once I moved to Copenhagen. Yeah. And then we kept doing it through the thick and thin.
 
-
-
 Tom: Would you give a bit of detail about [Felt](https://f-e-l-t.bandcamp.com/?from=search&search_item_id=1741945200&search_item_type=b&search_match_part=%3F&search_page_id=2099853114&search_page_no=1&search_rank=5&search_sig=fd8afb9024375483652cfadcb27d2b0c) as well?
-
-
 
 Fergus/Perko: Yeah, so [Felt](https://f-e-l-t.bandcamp.com/?from=search&search_item_id=1741945200&search_item_type=b&search_match_part=%3F&search_page_id=2099853114&search_page_no=1&search_rank=5&search_sig=fd8afb9024375483652cfadcb27d2b0c) is a record label I run and started this year. I also do a club night under the same name and a [radio show on Rinse France](https://soundcloud.com/perkopair/sets/rinse-france-residency). \[It's] something I wanted to do for a long time. But then, I don't know, didn't have the music or whatever. \[But] then I bugged someone enough that they agreed to let me release their album, which I did at the start of this year. Which seemed to go down pretty well - sold more copies than I expected. Yeah. And then we have [another one coming out this week](https://f-e-l-t.bandcamp.com/album/live-ep).
 
@@ -74,29 +56,17 @@ Fergus/Perko: There should be something about it. I'll be pretty annoyed if I sp
 
 Tom: Yeah, rattle these things out.
 
-
-
 Fergus/Perko: Totally.
-
-
 
 Tom: Yeah, totally. Are there any sort of changes in the music sort of industry or the kind of thing that you think is good any like positive changes that you think are being made or any any little opportunities that you think could be taken.
 
-
-
 Fergus/Perko: I don't know. I'm sure there are. I think it's hard to think it's always negative. So when you think about these things. Yeah. I guess it's more accessible to make music now. You know, there's quite - the entry point for making released music is, yeah, it's quite easy to do a release or do a record. You know, you can do a digital release quite easily. I think that's good. The rest I seem to feel very negatively, though. But that's a big conversation.
 
-
-
 Tom: The goal of this project is about sort of transparency and kind of trying to just open up conversations, I suppose, and knowledge sharing. Do you feel like that's a possibility? Is that something that you think could be embraced more or something you'd like to see more?
-
-
 
 Fergus/Perko: An unknown thing about how it is, I guess it's all creative industries. Like how does this actually exist? Because no one seems to be making any money. How is this functioning? Yeah. How is this person doing? You know, 12 albums.
 
 Fergus/Perko: How are they releasing 12 albums a year? When they're selling 300. And the profit on that is, you know, £1 per record. There needs to be something else that's happening there because that doesn't make sense. And I think for a lot of people, that's it's daunting because you look at this and it's obviously there's something extra. Whether that person has a job or they have funding or they have, you know, support, but you don't see any of that stuff. You just see the end product, which is this person is able to survive making these weird albums. And you know you know, there's something extra, but it's like no one's talking about it. And you think I can't enter that world and I can't do that because ... I don't know how it is really to be like that. Uh, yeah. I guess that's same for all. Like, creative, like, painters. Ceramic artist. I'm sure they have the same problems.
-
-
 
 Tom: Where's all the money coming from?!
 
