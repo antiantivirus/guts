@@ -7,8 +7,8 @@ mainImage:
   src: https://res.cloudinary.com/dgen7ni45/image/upload/v1655392267/Perko-Bandcamp-Header_hzndbg.jpg
   alt: A face on portrait photograph of Perko
 category:
-  - Editorial
   - Music
+  - Editorial
 ---
 Recorded on the 13th June 2022 outside Rafa's Diner, Glasgow
 
