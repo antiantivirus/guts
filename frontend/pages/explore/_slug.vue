@@ -20,7 +20,7 @@
             <h4 class="p">{{post.subheading}}</h4>
           </div>
         </div>
-        <img class="rounded box-content border-red absolute post-element-image" :src="post.mainImage.src" :alt="post.mainImage.alt"/>
+        <Photo :image="post.mainImage" class="rounded box-content border-red absolute post-element-image" />
       </article>
     </nuxt-link>
   </div>
@@ -35,7 +35,7 @@
 export default ({
   head() {
     return {
-      title: this.category.title + '~ GUTS',
+      title: this.category.title + ' ~ GUTS',
     }
   },
   async asyncData({ $content, params, error }) {

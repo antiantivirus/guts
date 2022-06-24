@@ -2,10 +2,10 @@
   <div>
     <div ref="category" class="absolute mx-auto category-picker z-40 mx-auto" :class="{'fixmeee' : scrolled}">
       <div class="relative">
-        <button @click="categoryDropdownOpen = !categoryDropdownOpen" class="rounded small-button block w-full z-50 cursor-s-resize">{{category}}</button>
+        <button @click="categoryDropdownOpen = !categoryDropdownOpen" class="rounded small-button block w-full z-50 cursor-s-resize open-category-button capitalize"><span class="mr-2 inline-block" :class="{'im-open':categoryDropdownOpen}" >↓</span>{{category}}</button>
         <transition name="pop-down">
           <div class="w-full text-center absolute top-0 pt-16 pb-2 category-dropdown bg-white z-30" v-show='categoryDropdownOpen'>
-            <nuxt-link class="block" v-for="(category, index) in categories" :key="index" :to="`/explore/${category}`">{{category}}</nuxt-link>
+            <nuxt-link class="block capitalize" v-for="(category, index) in categories" :key="index" :to="`/explore/${category}`">{{category}}</nuxt-link>
           </div>
         </transition>
       </div>
@@ -31,6 +31,15 @@ export default ({
   },
   props: {
     category: String
+  },
+  computed: {
+    downUp(){
+      if (this.categoryDropdownOpen){
+        return '↑'
+      } else {
+        return '↓'
+      }
+    }
   },
   methods: {
     onScroll(e) {
@@ -66,6 +75,15 @@ export default ({
 .fixmeee {
   position: fixed !important;
   top: 25px !important;
+}
+
+.im-open {
+  transform: rotate(180deg);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.open-category-button span {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 
 .category-dropdown {

@@ -1,10 +1,11 @@
 <template>
   <div id="the-gut" class="container relative">
     <div id="promo" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'promo'" @mouseleave="hovering = null">
+      <div class="relative">
       <nuxt-link to="/explore/promo">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/promo.png" alt="Promo" />
         <transition name="pop-down">
-          <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'promo'">
+          <div class="absolute gut-info rounded border-purple padding" v-show="hovering == 'promo'">
             <h2 class="mb-3 mt-1">{{promo[0].title}}</h2>
             <nuxt-content :document="promo[0]" />
           </div>
@@ -14,13 +15,15 @@
             <nuxt-content :document="promo[0]" />
         </div>
       </nuxt-link>
+      </div>
     </div>
 
     <div id="venue" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'venue'" @mouseleave="hovering = null">
-      <nuxt-link class="z-50" to="/explore/venue">
+      <div class="relative">
+      <nuxt-link to="/explore/venue">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/venue.png" alt="Venue" />
         <transition name="pop-down">
-          <div id="venue-info" class="relative gut-info rounded border-purple padding" v-show="hovering == 'venue'">
+          <div id="venue-info" class="gut-info rounded border-purple padding" v-show="hovering == 'venue'">
             <h2 class="mb-3 mt-1">{{venue[0].title}}</h2>
             <nuxt-content :document="venue[0]" />
           </div>
@@ -30,13 +33,15 @@
             <nuxt-content :document="venue[0]" />
         </div>
       </nuxt-link>
+      </div>
     </div>
 
     <div id="music" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'music'" @mouseleave="hovering = null">
+      <div class="relative">
       <nuxt-link  to="/explore/music">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/music.png" alt="Music" />
         <transition name="pop-down">
-          <div class="relative gut-info rounded border-purple padding" v-show="hovering == 'music'">
+          <div class="gut-info rounded border-purple padding" v-show="hovering == 'music'">
             <h2 class="mb-3 mt-1">{{music[0].title}}</h2>
             <nuxt-content :document="music[0]" />
           </div>
@@ -46,29 +51,33 @@
           <nuxt-content :document="music[0]" />
         </div>
       </nuxt-link>
+      </div>
     </div>
 
     <div id="editorial" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'editorial'" @mouseleave="hovering = null">
-      <nuxt-link  to="/explore/editorial">
-        <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/editorial.png" alt="Editorial" />
-        <transition name="pop-down">
-          <div id="editorial-info" class="relative gut-info rounded border-purple padding" v-show="hovering == 'editorial'">
+      <div class="relative">
+        <nuxt-link  to="/explore/editorial">
+          <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/editorial.png" alt="Editorial" />
+          <transition name="pop-down">
+            <div id="editorial-info" class="gut-info rounded border-purple padding" v-show="hovering == 'editorial'">
+              <h2 class="mb-3 mt-1">{{editorial[0].title}}</h2>
+              <nuxt-content :document="editorial[0]" />
+            </div>
+          </transition>
+          <div class="rounded border-purple padding lg:hidden max-w-prose mx-auto -mt-16">
             <h2 class="mb-3 mt-1">{{editorial[0].title}}</h2>
             <nuxt-content :document="editorial[0]" />
           </div>
-        </transition>
-        <div class="rounded border-purple padding lg:hidden max-w-prose mx-auto -mt-16">
-          <h2 class="mb-3 mt-1">{{editorial[0].title}}</h2>
-          <nuxt-content :document="editorial[0]" />
-        </div>
-      </nuxt-link>
+        </nuxt-link>
+      </div>
     </div>
 
     <div id="budget" class="gut-element lg:absolute mb-6 lg:mb-0" @mouseenter="hovering = 'budget'" @mouseleave="hovering = null">
+      <div class="relative">
       <nuxt-link  to="/explore/budget">
         <img class="drop-shadow-png gut-image ml-auto mr-0" src="/guts/budget.png" alt="Budget" />
         <transition name="pop-down">
-          <div id="budget-info" class="relative gut-info rounded border-purple padding" v-show="hovering == 'budget'">
+          <div id="budget-info" class="gut-info rounded border-purple padding" v-show="hovering == 'budget'">
             <h2 class="mb-3 mt-1">{{budget[0].title}}</h2>
             <nuxt-content :document="budget[0]" />
           </div>
@@ -79,7 +88,7 @@
         </div>
         </nuxt-link>
       </div>
-
+      </div>
   </div>
 </template>
 
@@ -143,6 +152,11 @@ export default ({
 
   .gut-element {
     transform: scale(0);
+    z-index: 0;
+  }
+
+  .gut-element:hover {
+    z-index: 20;
   }
 
   #the-gut {
@@ -164,25 +178,30 @@ export default ({
 
   .gut-info {
     margin-top: -25%;
-    right: -25%;
+    /* right: -25%; */
     max-width: 400px;
     width: 200%;
     z-index: 40;
+    position: absolute;
   }
 
   #editorial-info {
-    top: 0px;
+    /* top: 0px;
     left: 0px;
-    transform: translate(-50%, -135%);
+    transform: translate(-50%, -135%); */
+    /* bottom: 100%;
+    right: 100%; */
+    bottom: 58%;
+    right: 38%;
   }
 
   #venue-info {
-    top: -230%;
-    right: -50%;
+    bottom: 50%;
+    left: 67%;
   }
 
   #budget-info {
-    left: -150%;
+    right: 50%;
   }
 
   #promo {
