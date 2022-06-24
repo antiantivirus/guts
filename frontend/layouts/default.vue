@@ -1,8 +1,38 @@
 <template>
   <div>
-    <Nuxt />
+    <div id="bg"></div>
+    <nuxt-link  to="/">
+      <img class="mx-auto" id="logo" ref="logo" src="~assets/img/guts-logo.png"/>
+    </nuxt-link>
+    <!-- <Marquee /> -->
+    <div class="mt-8 invisible opacity-0" ref="content">
+      <Nuxt />
+    </div>
+    <footer class="mt-16 mb-16" ref="footer">
+      <img class="mx-auto footer-logo" src="~assets/img/YouthMusicxNumbers.svg" alt=""/>
+    </footer>
   </div>
 </template>
+
+<script>
+export default ({
+  mounted(){
+    this.introAnim()
+  },
+  methods: {
+    introAnim(){
+      // this.$gsap.to(this.$refs.logo, { duration: 0, scale: 0, delay: 0 })
+      // this.$gsap.to(this.$refs.logo, { duration: 0.75, scale: 1, delay: 0 })
+      // this.$gsap.to(this.$refs.logo, { duration: 0.5, scale: 2, delay: 0 })
+      this.$gsap.to(this.$refs.logo, { duration: 2, y: '-42vh', delay: 1, ease: 'Back.easeOut' })
+      // this.$gsap.to(this.$refs.logo, { duration: 1, scale: 1, delay: 0.5 })
+      this.$gsap.to(this.$refs.content, { duration: 0.5, visibility:"visible", opacity: 1, delay: 2.5 })
+      // this.$gsap.to(this.$refs.footer, { duration: 1, visibility:"visible", opacity: 1, delay: 1.75 })
+    }
+  }
+
+})
+</script>
 
 <style>
 html {
@@ -59,4 +89,31 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+#bg {
+  background-image: url('~assets/img/background-compressed.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(15px);
+  -webkit-filter: blur(15px);
+  z-index: -1;
+}
+
+#logo, #footer-logo {
+  max-width: 238px;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 </style>
