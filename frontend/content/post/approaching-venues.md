@@ -35,35 +35,19 @@ The resident advisor [events listings](https://ra.co/events/uk/glasgow) are a go
 
 We then began contacting venues to find out their availability. Our general email template for approaching the venues was as follows:
 
-
-
 Hello,
-
- 
 
 We’re just getting in touch to find out the availability and hire fees for a club night event (11pm-3am) at \[Insert Venue Name] in the month of \[insert].
 
- 
-
 We are particularly keen on Friday/Saturday availability - ideally 24th/25th June.
-
- 
 
 Our event GUTS, funded by a collaboration between the record label [Numbers](http://nmbrs.net/) and the charity [Youth Music](https://youthmusic.org.uk/), will be a forward-thinking and thoughtful event that aims to act as an educational tool for how events are assembled.
 
- 
-
 Let us know if there is any other information that you might need.
-
- 
 
 Many thanks,
 
- 
-
-Heléna [\[H3L3NA]](https://linktr.ee/helenastanton) + Tom [[Subcity Radio](https://www.subcity.live/)/[Body Parts](https://www.instagram.com/bodyparts.gla/)]
-
-
+Heléna [[H3L3NA](https://linktr.ee/helenastanton)] + Tom [[Subcity Radio](https://www.subcity.live/)/[Body Parts](https://www.instagram.com/bodyparts.gla/)]
 
 Be polite and most of all clear with what you are after. Venues receive a lot of emails so make it really clear how they can help you.
 
