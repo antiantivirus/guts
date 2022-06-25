@@ -9,7 +9,7 @@
       <Nuxt />
     </div>
     <footer class="mt-16 mb-16" ref="footer">
-      <img class="mx-auto footer-logo" src="~assets/img/YouthMusicxNumbers.svg" alt=""/>
+      <img class="mx-auto footer-logo" src="~assets/img/supported.png" alt=""/>
     </footer>
   </div>
 </template>
