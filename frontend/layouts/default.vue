@@ -9,7 +9,7 @@
       <Nuxt />
     </div>
     <footer class="mt-16 mb-16" ref="footer">
-      <img class="mx-auto footer-logo" src="~assets/img/supported.png" alt=""/>
+      <img id="footer-logo" class="mx-auto footer-logo" src="~assets/img/supported.png" alt=""/>
     </footer>
   </div>
 </template>
@@ -105,8 +105,12 @@ html {
   z-index: -1;
 }
 
-#logo, #footer-logo {
+#logo {
   max-width: 238px;
+}
+
+#footer-logo {
+  max-width: 150px;
 }
 
 #logo {
