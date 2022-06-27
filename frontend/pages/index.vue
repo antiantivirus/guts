@@ -8,8 +8,8 @@
             <!-- <h3 class="xl:px-8 text-center mx-auto">A club night with a difference. GUTS lets you prod and poke the internals to see how it works - from budgets, emails and assets to interviews with others working in electronic music.</h3> -->
             <h2 ref="type" class="h2-large"></h2>
           </div>
-          <div class="grid xl:grid-cols-2 gap-2 xl:mt-2 max-w-lg mx-auto xl:max-w-none">
-          <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a>
+          <div class="xl:mt-2 max-w-lg mx-auto xl:max-w-none">
+          <!-- <a class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" href="https://ra.co/events/1546931" target="_blank">Book your tickets</a> -->
           <nuxt-link class="mx-2 mx-auto text-center block PicNic mt-6 lg:mt-0 button padding w-full" to="/explore" >Poke around</nuxt-link>
           </div>
         </div>
