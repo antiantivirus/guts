@@ -89,7 +89,7 @@ export default {
 }
 
 .floating {
-  /* animation: float 8s infinite ease-in-out; */
+  animation: float 8s infinite ease-in-out;
 }
 
 #character {
