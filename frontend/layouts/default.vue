@@ -19,12 +19,21 @@ export default ({
   mounted(){
     this.introAnim()
   },
+  computed:{
+    yTransformAmount(){
+      if (window.innerWidth < 500) {
+        return '-38vh'
+      } else {
+        return '-42vh'
+      }
+    }
+  },
   methods: {
     introAnim(){
       // this.$gsap.to(this.$refs.logo, { duration: 0, scale: 0, delay: 0 })
       // this.$gsap.to(this.$refs.logo, { duration: 0.75, scale: 1, delay: 0 })
       // this.$gsap.to(this.$refs.logo, { duration: 0.5, scale: 2, delay: 0 })
-      this.$gsap.to(this.$refs.logo, { duration: 2, y: '-42vh', delay: 1, ease: 'Back.easeOut' })
+      this.$gsap.to(this.$refs.logo, { duration: 2, y: this.yTransformAmount, delay: 1, ease: 'Back.easeOut' })
       // this.$gsap.to(this.$refs.logo, { duration: 1, scale: 1, delay: 0.5 })
       this.$gsap.to(this.$refs.content, { duration: 0.5, visibility:"visible", opacity: 1, delay: 2.5 })
       // this.$gsap.to(this.$refs.footer, { duration: 1, visibility:"visible", opacity: 1, delay: 1.75 })
