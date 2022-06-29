@@ -1,7 +1,7 @@
 <template>
   <div class="xl:container mb-24 md:mb-72 xl:mb-0">
     <div id="home-grid" class="grid xl:grid-cols-2 xl:content-center">
-      <img ref="character" id="character" class="drop-shadow-png floating max-w-lg mx-auto w-full" src="~assets/img/gutsinside.png" />
+      <img ref="character" id="character" class="drop-shadow-png floating max-w-lg mx-auto w-full" src="~assets/img/character2.png" />
       <div ref="bubble" class="flex justify-center flex-col">
         <div>
           <div id="speech-bubble" class="fixed w-screen bottom-0 xl:static xl:w-full rounded border-purple padding">
