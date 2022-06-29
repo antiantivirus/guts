@@ -22,7 +22,7 @@ export default ({
   computed:{
     yTransformAmount(){
       if (window.innerWidth < 500) {
-        return '-35vh'
+        return '-33vh'
       } else {
         return '-42vh'
       }
