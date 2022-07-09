@@ -15,8 +15,6 @@ We won’t be examining our budget breakdowns in this article as we want to devo
 
 Scroll to the bottom for a look at our full (but now out of date) proposal document.
 
-
-
 # **The original concept**
 
 The entire idea for this project began with an episode of the excellent [Interdependence Podcast](https://interdependence.fm/), hosted by musicians Holly Herdnon and Matt Dryhurst. This [particular episode](https://interdependence.fm/episodes/radical-transparency-humor-disinformation-poetry-for-machines-avatar-politicians-and-giving-non-human-entities-a-vote-with-digital-minister-of-taiwan-audrey-tang-X36XnWVg) they were speaking to the digital minister of Taiwan, [Audrey Tang](https://twitter.com/audreyt?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) about radical transparency in the Taiwanese government. There were some really inspiring ideas about how you can build trust and community by putting effort into making decisions and conversations transparent.
@@ -28,8 +26,6 @@ The theme and ideas of transparency seemed to touch on lots of conversations in 
 * [Decentralisation](https://www.waterandmusic.com/)/[Web 3](https://www.ninaprotocol.com/) ideas
 * [Horizontal](https://www.instagram.com/bonjourglasgow/?hl=en) [ownership](https://glasgowautonomous.weebly.com/) [structures](https://www.wharfchambers.org/)
 * [Drug safety](https://wearetheloop.org/) discussions
-
-
 
 # First Draft
 
@@ -43,8 +39,6 @@ Additionally, the name was setting us up for failure before we began by potentia
 
 We decided to streamline the project and found inspiration from the cover of the Aphex Twin album [Syro](https://upload.wikimedia.org/wikipedia/commons/8/8c/Syro_album_cover.jpg), which features a [spreadsheet style breakdown of the costs](https://docs.google.com/spreadsheets/d/1aRsjyfaQv-g7ymJ0RX2ea8dr9ikctzLQGOUTNQ0VjUY/pubhtml?gid=488596311&single=true) involved in producing and promoting the album. We both liked the idea of an event that reflexively documented itself while it was happening and that would allow people to explore it while it was taking place.
 
-
-
 # Second Draft
 
 ![Various characters that are shaped like anthropomorphic club nights - Globes, a gummy bear, a jelly fish and more](https://res.cloudinary.com/dgen7ni45/image/upload/v1655391265/Adobe_Scan_12_Jun_2022_ng5blp.png "Character Sketches")
@@ -55,5 +49,4 @@ We streamlined the event and decided to focus on a club night event and document
 
 Read the full event proposal document below. Since this was made, due to issues with venue availability we had to shift the planned event times and locations we had in mind and look to book more local artists as opposed to out of town names. Its not a perfect or final document but hopefully will come in handy if you ever need to make your own!
 
-
-<iframe src="https://drive.google.com/file/d/14Rp5NRsQyzLcHQfeX0rwFL2cNFfi1OUS/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1QZe-hx-l29gOXY6pq5dI2Xsv2xeZ-_VH/view?usp=sharing" width="640" height="480" allow="autoplay"></iframe>
