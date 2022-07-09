@@ -24,7 +24,7 @@ This project was lucky and unusual in 2 key ways; firstly we were not required t
 
 Below is our proposed budget breakdown from the very start of the project before we approached any artists, venues etc.
 
-If there are any issues, you should be able to view the doc [here](https://docs.google.com/spreadsheets/d/1u8jqadmu9KPeK70ZbjwROZCa0vga4pv9x-BN04_yuws/edit?usp=sharing) or download [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml?gid=0&single=true)
+If there are any issues, you should be able to view the doc [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml), [here](https://drive.google.com/file/d/1TbJOTeEhX4_ombzt4OpawTy7xBOi_2GA/view?usp=sharing) or download [here](<<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml?widget=true&amp;headers=false"></iframe>>)
 
 ![An Excel Spreadsheet with a breakdown of the Budget](https://res.cloudinary.com/dgen7ni45/image/upload/v1656766247/PUBLIC_-_GUTS_Budget_Proposal_urws11.png "Proposed budget breakdown from the start of the project.")
 
