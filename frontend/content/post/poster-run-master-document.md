@@ -11,6 +11,6 @@ category:
 ---
 This isn't a complete document but its a great place to start if you want to poster in Glasgow and should save you a lot of time. This is based on one that's been developed over at [Subcity Radio](www.subcity.live) for their events.
 
-[download link](https://docs.google.com/spreadsheets/d/e/2PACX-1vQOX8GbsE5_5AWePCbwhXXtS1quXFFC9mstYBLjJKiat8MvgdxASfJnbYlww9ITZDNrWQ0uYPvYA1bK/pub?output=pdf) 
+[download link](https://docs.google.com/spreadsheets/d/e/2PACX-1vTXwciO0EcLXU3CB7N1-MuWwkQB2Xg_-DtWA1raTIlypov0ZC1mkZ5vQOtKzVuETg/pub?output=xlsx) , [online view link](https://docs.google.com/spreadsheets/d/1oNp2JX23um8cP4X1B_9ubpL-XGaZRm2B/edit?usp=sharing&ouid=108422407702670018182&rtpof=true&sd=true)
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQOX8GbsE5_5AWePCbwhXXtS1quXFFC9mstYBLjJKiat8MvgdxASfJnbYlww9ITZDNrWQ0uYPvYA1bK/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width="800" height="2000" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTXwciO0EcLXU3CB7N1-MuWwkQB2Xg_-DtWA1raTIlypov0ZC1mkZ5vQOtKzVuETg/pubhtml?widget=true&amp;headers=false"></iframe>
