@@ -49,4 +49,4 @@ We streamlined the event and decided to focus on a club night event and document
 
 Read the full event proposal document below. Since this was made, due to issues with venue availability we had to shift the planned event times and locations we had in mind and look to book more local artists as opposed to out of town names. Its not a perfect or final document but hopefully will come in handy if you ever need to make your own!
 
-<iframe src="https://drive.google.com/file/d/1QZe-hx-l29gOXY6pq5dI2Xsv2xeZ-_VH/view?usp=sharing" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vSBajqtNlwBO8KlsSqsS71vAV88aj6mtWnNkhTEzYwJPWa6nREpHuK6wqSt78AuTNolegh7cdZk2B3n/pub?embedded=true"></iframe>
