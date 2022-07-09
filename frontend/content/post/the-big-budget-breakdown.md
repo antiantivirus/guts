@@ -13,7 +13,7 @@ We had £3250 to spend on this project , courtesy of the support of Youth Music 
 
 You should be able to either read our final budget via the embed below, the viewing link [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT5lXgMahtiFaDlzp9rzH3IM_0BxGvvvB-BmcsQJq-KnR6CM-TFEyxDCI8-W7yKrxXndb-84U9DOHZm/pubhtml) or the download link [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vT5lXgMahtiFaDlzp9rzH3IM_0BxGvvvB-BmcsQJq-KnR6CM-TFEyxDCI8-W7yKrxXndb-84U9DOHZm/pub?output=csv)
 
-<iframe width="300" height="1000" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5lXgMahtiFaDlzp9rzH3IM_0BxGvvvB-BmcsQJq-KnR6CM-TFEyxDCI8-W7yKrxXndb-84U9DOHZm/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width="600" height="600" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT5lXgMahtiFaDlzp9rzH3IM_0BxGvvvB-BmcsQJq-KnR6CM-TFEyxDCI8-W7yKrxXndb-84U9DOHZm/pubhtml?widget=true&amp;headers=false"></iframe>
 
 # Acknowledgements and Caveats
 
