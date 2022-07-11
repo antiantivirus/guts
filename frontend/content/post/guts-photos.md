@@ -31,6 +31,12 @@ Dj [Body Parts](https://www.instagram.com/bodyparts.gla/) (aka Tom) takes the wa
 
 Some punters having a break and enjoying the sun
 
+
+
+![Male DJ on decks](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537358/Party%20Pics%20Web%20Compressed/GUTS-1635_hhh6xw.jpg)
+
+[LWS](https://www.instagram.com/lws_lewis/) pon the decks
+
 ![Crowd cheering at a club night event](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537359/Party%20Pics%20Web%20Compressed/GUTS-1755_vks0dp.jpg)
 
 ![Female DJ with yellow top works the decks](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537359/Party%20Pics%20Web%20Compressed/GUTS-1709_trlgck.jpg)
