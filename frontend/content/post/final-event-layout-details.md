@@ -1,5 +1,5 @@
 ---
-title: Final Event Layout + Details
+title: French Street Layout (after party) + Details
 date: 2022-07-11T09:31:57.652Z
 subheading: The event layout as it was on the day with a few thoughts
 mainImage:
