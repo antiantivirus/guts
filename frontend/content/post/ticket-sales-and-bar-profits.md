@@ -1,5 +1,5 @@
 ---
-title: Ticket sales and Bar Profits
+title: Ticket Stats and Bar Profits
 date: 2022-07-11T17:31:32.522Z
 subheading: Quick rundown of how many tix sold and money generated
 mainImage:
