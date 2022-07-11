@@ -15,10 +15,12 @@ Here's the updated final event layout as it was on the day. You should be able t
 
 
 
+
+
 We were super happy with the final layout of everything. The two TVs were visible but not too intrusive (I think), and we could ramp up the intensity of the lighting as it got darker in the evening. The haze worked well but we did manage to set off a fire alarm (oops). 
 
 All the lighting and the visuals were being controlled from the desk at the side of the stage via a big jumble of HMDI Cables (rented from GBR Scotland - hung overhead) and DMX cables running around everything. 
 
 It took us a while to decide where we wanted to put everything but the truss in the end was a great last minute decision - we just strapped it to one of the columns and popped the tv up there.
 
-I think we had everything up and running about 10 minutes into the first set
+I think we had everything up and running about 10 minutes after doors opening - i'd definitely give us more time for setting up if we were to do this again!
