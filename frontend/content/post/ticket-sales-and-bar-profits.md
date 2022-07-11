@@ -10,7 +10,7 @@ category:
   - Budget
   - Editorial
 ---
-Below we have some stats about how well we did with ticket sales. We cleared our goal of £800 recoupment (see the big budget breakdown for more info on this) and took £1,019.00 all in. A PDF with all the stats we could get our hands on is embedded at the bottom of this page (online view [here](https://drive.google.com/file/d/1AKngBJII3zLbIESuoHc8IVE9t113Quf2/view?usp=sharing)).
+Below we have some stats about how well we did with ticket sales. We cleared our goal of £800 recoupment (see the [big budget breakdown](https://guts.exposed/post/the-big-budget-breakdown) for more info on this) and took £1,019.00 all in. A PDF with all the stats we could get our hands on is embedded at the bottom of this page (online view [here](https://drive.google.com/file/d/1AKngBJII3zLbIESuoHc8IVE9t113Quf2/view?usp=sharing)).
 
 Ticket sales can always be divided into pre-sale (those sold before the event, usually online) and on the door (OTD, sold as people arrive at the venue).
 
