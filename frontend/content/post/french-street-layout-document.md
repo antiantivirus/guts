@@ -1,5 +1,5 @@
 ---
-title: French Street Layout Document
+title: French Street Layout Document (before party)
 date: 2022-06-24T15:47:07.378Z
 subheading: The blueprints for French Street and how we are planning on using it
 mainImage:
