@@ -20,15 +20,11 @@ We were also lucky enough to secure a Resident Advisor Pick - an accolade given 
 
 ![Text reads This unique party aims to demystify club promotion and host a good party at the same time. Expect standout sets from the likes of Jennifer Walton and Proc Fiscal.](https://res.cloudinary.com/dgen7ni45/image/upload/v1657562777/Ticket%20Stats/Screenshot_2022-07-11_at_7.45.24_pm_gbrxrl.png)
 
-
-
 Our venue capacity was 166 people and we managed to sell 105 presale tickets, with a further 28 tickets sold on the door - netting an additional £280. we priced early bird tickets at £6+booking fees, then to £8 closer to the event and charged £10 on the door. One ticket was accidentally sold for £7 when we messed up the ticketing pricing
 
 ![Page of stats, 888 page views, 105/166 tickets sold, £739](https://res.cloudinary.com/dgen7ni45/image/upload/v1657562778/Ticket%20Stats/Screenshot_2022-07-11_at_7.41.27_pm_fc0wuq.png)
 
 ![Ticket sale stats](https://res.cloudinary.com/dgen7ni45/image/upload/v1657562775/Ticket%20Stats/Screenshot_2022-07-11_at_7.53.39_pm_osjty6.png)
-
-
 
 Ticket sales started off slow (we were nervous) but built towards the event. Something that we heard over and over is that pre-sale tickets have been really slow since the pandemic - people are waiting until near the event to decide their plans. It can make it extra tricky to work out a ticket pricing structure and can make it a bit stressful not knowing how many will actually show up on the day.
 
@@ -37,6 +33,8 @@ Ticket sales started off slow (we were nervous) but built towards the event. Som
 ![Heat map of busy ticket sale times](https://res.cloudinary.com/dgen7ni45/image/upload/v1657562778/Ticket%20Stats/Screenshot_2022-07-11_at_7.42.03_pm_ytekn3.png)
 
 
+
+Drinks were sold on the night via token at the door - £2.50 for one, 4 for £10 etc. One drink was 1 token or 2 for a double. We don't unfortunately have the exact bar sale figures on the night as this was mostly handled by the venue. However after taking off the cost of supplies the bar profited around £600.
 
 
 
