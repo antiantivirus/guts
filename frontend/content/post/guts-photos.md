@@ -25,7 +25,7 @@ Dj [Body Parts](https://www.instagram.com/bodyparts.gla/) (aka Tom) takes the wa
 
 ![Woman with black cap on DJs, with TV behind her with the GUTS character](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537357/Party%20Pics%20Web%20Compressed/GUTS-1554_hi3g1i.jpg)
 
-EFFUA takes the next set
+[EFFUA](https://soundcloud.com/effua-ibojie-909412163) takes the next set
 
 ![Picture taken through a window showing people relaxing on the hood of a car](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537358/Party%20Pics%20Web%20Compressed/GUTS-1603_k46gy7.jpg)
 
