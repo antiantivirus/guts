@@ -13,13 +13,7 @@ category:
 ---
 A selection of some lovely pictures taken by Abby Beatrice Quick ([website](https://abbybeatricequick.com/), [insta](https://www.instagram.com/abbybeatrice/)) from the night. Scroll through the flickr album below ([link](https://flic.kr/s/aHBqjzXDDH), download [here](https://drive.google.com/drive/folders/1WBHqCWBMqWUUbjl9-bSQKA9Y0snSM0rd?usp=sharing)) or keep scrolling for some highlights. More footage is on our GUTS instagram [here](https://www.instagram.com/guts_party_gla/).
 
-
-
-<a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/196040091@N03/albums/72177720300452391" title="GUTS @ French Street June 2022"><img src="https://live.staticflickr.com/65535/52208747638_dfdd0f9330_h.jpg" width="1200" height="1600" alt="GUTS @ French Street June 2022"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-
-
-
+<a data-flickr-embed="true" data-header="true" data-footer="true" href="https://www.flickr.com/photos/196040091@N03/albums/72177720300452391" title="GUTS @ French Street June 2022"><img src="https://live.staticflickr.com/65535/52208747638_dfdd0f9330_h.jpg" width="1200" height="1600" alt="GUTS @ French Street June 2022"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 ![Man setting up lighting equipment](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537357/Party%20Pics%20Web%20Compressed/GUTS-1540_k4isdu.jpg)
 
