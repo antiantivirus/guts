@@ -11,7 +11,15 @@ category:
   - Promo
   - Music
 ---
-A selection of some lovely pictures taken by Abby Beatrice Quick ([website](https://abbybeatricequick.com/), [insta](https://www.instagram.com/abbybeatrice/)) from the night. Full flickr album at the bottom ([link](https://flic.kr/s/aHBqjzXDDH)) or download [here](https://drive.google.com/drive/folders/1WBHqCWBMqWUUbjl9-bSQKA9Y0snSM0rd?usp=sharing). More footage is on our GUTS instagram [here](https://www.instagram.com/guts_party_gla/).
+A selection of some lovely pictures taken by Abby Beatrice Quick ([website](https://abbybeatricequick.com/), [insta](https://www.instagram.com/abbybeatrice/)) from the night. Scroll through the flickr album below ([link](https://flic.kr/s/aHBqjzXDDH), download [here](https://drive.google.com/drive/folders/1WBHqCWBMqWUUbjl9-bSQKA9Y0snSM0rd?usp=sharing)) or keep scrolling for some highlights. More footage is on our GUTS instagram [here](https://www.instagram.com/guts_party_gla/).
+
+
+
+<a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/196040091@N03/albums/72177720300452391" title="GUTS @ French Street June 2022"><img src="https://live.staticflickr.com/65535/52208747638_dfdd0f9330_h.jpg" width="1200" height="1600" alt="GUTS @ French Street June 2022"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+
+
 
 ![Man setting up lighting equipment](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537357/Party%20Pics%20Web%20Compressed/GUTS-1540_k4isdu.jpg)
 
@@ -66,9 +74,3 @@ The numbers x youth music crew (Neil, Fleur, Jo, Heléna, Tom, Aaron, Rowan and 
 LAST ORDERS!
 
 ![TV mounted to a tall truss displays the words "thanks for coming"](https://res.cloudinary.com/dgen7ni45/image/upload/v1657537361/Party%20Pics%20Web%20Compressed/GUTS-1919_jdzhwq.jpg)
-
-
-
-vv FULL ALBUM vv
-
-<a data-flickr-embed="true" data-header="true" href="https://www.flickr.com/photos/196040091@N03/albums/72177720300452391" title="GUTS @ French Street June 2022"><img src="https://live.staticflickr.com/65535/52208747638_dfdd0f9330_h.jpg" width="1200" height="1600" alt="GUTS @ French Street June 2022"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
