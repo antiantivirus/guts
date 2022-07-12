@@ -3,7 +3,7 @@ title: Poster Run Master Document
 date: 2022-06-24T16:00:09.929Z
 subheading: A document with all the locations that we found that accept event posters
 mainImage:
-  src: https://res.cloudinary.com/dgen7ni45/image/upload/v1657666149/IMG_2553_mngzk8.heic
+  src: https://res.cloudinary.com/dgen7ni45/image/upload/v1657666862/Screenshot_2022-07-13_at_1.00.52_am_i5qcrc.png
   alt: The GUTS poster put up in a shop
 category:
   - Promo
