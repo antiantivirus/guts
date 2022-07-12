@@ -9,9 +9,7 @@ mainImage:
 category:
   - Promo
 ---
-<iframe src='https://my.spline.design/gutscharacterv2-8df8310d99a925a71e54d60d86c5dac6/' frameborder='0' width='100%' height='100%'></iframe>
-
-
+<iframe src='https://my.spline.design/gutscharacterv2-8df8310d99a925a71e54d60d86c5dac6/' frameborder='0' width='100%' height='600'></iframe>
 
 The 3D files used in this project were designed by the wonderful [Sam Wood](https://www.instagram.com/sam.woodd/) using the free software [Blender](https://www.blender.org/) and are free for you to download and use. Please credit him though if you are going to be sharing anything you create! 
 
@@ -19,11 +17,7 @@ Once Sam sent us these files Tom ([body parts](https://www.instagram.com/bodypar
 
 Don't forget to download the HDRI ([here](https://drive.google.com/file/d/1ahmG4QD9mV8J-yuzQgwGhrdQJWEa-v65/view?usp=sharing)) that goes with the file to make it look extra crispy and so that the blender file doesn't get confused.
 
-
-
 The embedded version of the model was created using [Spline](https://spline.design/) - it was originally supposed to go on the home page but we are still perfecting the materials to look right!
-
-
 
 Sam Wood Original Files ([view/download](https://drive.google.com/drive/folders/1jliXj7oJaDoPgqFOH0SH5ouXZGmkIjY_?usp=sharing))
 
@@ -32,8 +26,6 @@ Sam Wood Original Files ([view/download](https://drive.google.com/drive/folders/
 \- HDRI
 
 \- Some early character renders
-
-
 
 Tom's Edited Blender File ([view/download](https://drive.google.com/file/d/1rHfJ5WqQmBvWQhCQ2BCu-XqKY_NppjtB/view?usp=sharing))
 
@@ -44,8 +36,6 @@ Tom's Edited Blender File ([view/download](https://drive.google.com/file/d/1rHfJ
 \- Various cameras for various posts
 
 \- 3D text used on the poster
-
-
 
 Various Bits
 
