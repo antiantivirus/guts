@@ -9,7 +9,7 @@ mainImage:
 category:
   - Promo
 ---
-<iframe src='https://my.spline.design/gutscharacterv2-8df8310d99a925a71e54d60d86c5dac6/' frameborder='0' width='100%' height='150%'></iframe>
+<iframe src='https://my.spline.design/gutscharacterv2-8df8310d99a925a71e54d60d86c5dac6/' frameborder='0' width='100%' height='100%'></iframe>
 
 The 3D files used in this project were designed by the wonderful [Sam Wood](https://www.instagram.com/sam.woodd/) using the free software [Blender](https://www.blender.org/) and are free for you to download and use. Please credit him though if you are going to be sharing anything you create! 
 
