@@ -18,4 +18,4 @@ If you'd like to know more about the impact of electronic music on clubbing, we 
 
 Carbon estimation doc (online view [link](https://docs.google.com/spreadsheets/d/14g03OnFskcoqf95U3TX__0ujdDArOLyXxyFedozGKLk/edit?usp=sharing), [download](https://docs.google.com/spreadsheets/d/e/2PACX-1vSmTJzCkWsTQx08myVhjD5MU8IHu4Ntyx3ytONN_Lm6bw1OnvlX53QpTbd_Cyp2QWS8YVRKUT98zjnZ/pub?output=xlsx))
 
-<iframe width="750" height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmTJzCkWsTQx08myVhjD5MU8IHu4Ntyx3ytONN_Lm6bw1OnvlX53QpTbd_Cyp2QWS8YVRKUT98zjnZ/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe width=100% height="800" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmTJzCkWsTQx08myVhjD5MU8IHu4Ntyx3ytONN_Lm6bw1OnvlX53QpTbd_Cyp2QWS8YVRKUT98zjnZ/pubhtml?widget=true&amp;headers=false"></iframe>
