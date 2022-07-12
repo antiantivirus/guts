@@ -1,5 +1,5 @@
 ---
-title: Budget Proposals + Funding Breakdown
+title: Our Budget Proposal
 date: 2022-07-02T10:31:58.085Z
 subheading: How we planned to spend our funding at the start of the project
 mainImage:
@@ -10,7 +10,7 @@ category:
 ---
 MONEY! MONEY CHANGES EVERYTHING!
 
-This article is a quick look into our process for putting together our budget proposal, right at the very very beginning of the project. This is by no means close to how the final amount was distributed in the end - there will be another article devoted to that, but I'll explain our funding, how we were able to spend it and the research that we did.
+This article is a quick look into our process for putting together our budget proposal, right at the very very beginning of the project. This is by no means close to how the final amount was distributed in the end - see our [BIG BUDGET BREAKDOWN](https://guts.exposed/post/the-big-budget-breakdown) - but here I'll explain our funding, how we were able to spend it and the research that we did.
 
 # Our Funding
 
@@ -24,7 +24,7 @@ This project was lucky and unusual in 2 key ways; firstly we were not required t
 
 Below is our proposed budget breakdown from the very start of the project before we approached any artists, venues etc.
 
-If there are any issues, you should be able to view the doc [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml), [here](https://drive.google.com/file/d/1TbJOTeEhX4_ombzt4OpawTy7xBOi_2GA/view?usp=sharing) or download [here](<<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml?widget=true&amp;headers=false"></iframe>>)
+If there are any issues, you should be able to view the doc [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml), [here](https://drive.google.com/file/d/1TbJOTeEhX4_ombzt4OpawTy7xBOi_2GA/view?usp=sharing) or download \[here](<<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSaNOxuSvzbHC9ZypJlWPcI4Ldizygys4wTespc3oE1eix86CEydZLt_udMEkLpRBSa3XP3NWACx8dY/pubhtml?widget=true&amp;headers=false"></iframe>>)
 
 ![An Excel Spreadsheet with a breakdown of the Budget](https://res.cloudinary.com/dgen7ni45/image/upload/v1656766247/PUBLIC_-_GUTS_Budget_Proposal_urws11.png "Proposed budget breakdown from the start of the project.")
 
