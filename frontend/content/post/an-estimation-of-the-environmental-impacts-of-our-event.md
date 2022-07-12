@@ -1,7 +1,7 @@
 ---
-title: An estimation of the environmental impacts of our event
+title: GUTS CO2 Emissions
 date: 2022-07-11T18:35:08.982Z
-subheading: A look at the carbon emissions associated with GUTS
+subheading: An estimation of the environmental impact of our event
 mainImage:
   src: https://res.cloudinary.com/dgen7ni45/image/upload/v1657564728/Green_Guts_n8lgdq.png
   alt: GUTS Logo on green background
