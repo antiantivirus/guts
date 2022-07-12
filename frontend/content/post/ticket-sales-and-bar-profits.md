@@ -32,12 +32,8 @@ Ticket sales started off slow (we were nervous) but built towards the event. Som
 
 ![Heat map of busy ticket sale times](https://res.cloudinary.com/dgen7ni45/image/upload/v1657562778/Ticket%20Stats/Screenshot_2022-07-11_at_7.42.03_pm_ytekn3.png)
 
-
-
 Drinks were sold on the night via token at the door - £2.50 for one, 4 for £10 etc. One drink was 1 token or 2 for a double. We don't unfortunately have the exact bar sale figures on the night as this was mostly handled by the venue. However after taking off the cost of supplies the bar profited around £600.
-
-
 
 All stats doc (online view [here](https://drive.google.com/file/d/1AKngBJII3zLbIESuoHc8IVE9t113Quf2/view?usp=sharing))
 
-<iframe src="https://drive.google.com/file/d/1AKngBJII3zLbIESuoHc8IVE9t113Quf2/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1AKngBJII3zLbIESuoHc8IVE9t113Quf2/preview" width="100%" height="480" allow="autoplay"></iframe>
