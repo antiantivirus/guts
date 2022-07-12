@@ -11,11 +11,7 @@ category:
 ---
 Here's the updated final event layout as it was on the day. You should be able to view the doc via the embed below or the online viewing link [here](https://drive.google.com/file/d/1Vopc_6_Tjj5Kpwvbtnwb0AJERu8JrHoG/view?usp=sharing) or [here](https://drive.google.com/file/d/1eMkl5XMF9UrneTuKVc5fyyMKanbef_pP/view?usp=sharing)
 
-<iframe src="https://drive.google.com/file/d/1Vopc_6_Tjj5Kpwvbtnwb0AJERu8JrHoG/preview" width="640" height="480" allow="autoplay"></iframe>
-
-
-
-
+<iframe src="https://drive.google.com/file/d/1Vopc_6_Tjj5Kpwvbtnwb0AJERu8JrHoG/preview" width="100%" height="480" allow="autoplay"></iframe>
 
 We were super happy with the final layout of everything. The two TVs were visible but not too intrusive (I think), and we could ramp up the intensity of the lighting as it got darker in the evening. The haze worked well but we did manage to set off a fire alarm (oops). 
 
