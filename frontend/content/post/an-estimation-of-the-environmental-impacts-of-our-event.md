@@ -6,9 +6,8 @@ mainImage:
   src: https://res.cloudinary.com/dgen7ni45/image/upload/v1657564728/Green_Guts_n8lgdq.png
   alt: GUTS Logo on green background
 category:
-  - Editorial
   - Budget
-  - Venue
+  - Editorial
 ---
 Below is an attempt at breaking down the carbon impact of our event. It is an incredibly rough estimation based on a lot of crude guesses, but we wanted to at least highlight this as a consideration and as something we hope will be considered more in the future.
 
