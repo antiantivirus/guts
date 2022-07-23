@@ -14,8 +14,6 @@ Approaching a venue is one of the key steps in getting an event off the ground. 
 2. Venue Research
 3. Approaching venues for costs and availability
 
-
-
 As described in the [developing the concept](https://guts.exposed/post/developing-the-event-concept) article, our initial plan was to host the event in a club space with the following requirements:
 
 * Has to be able to host a DJ event with at least 250 people
@@ -23,11 +21,9 @@ As described in the [developing the concept](https://guts.exposed/post/developin
 * Ideally able to open between 11pm-3am
 * Ideally has wheelchair access
 
-
-
 We made a google sheets table that looked like the following:
 
-![A table with a list of venues, and a checklist of requirements as well as general pros and cons](https://res.cloudinary.com/dgen7ni45/image/upload/v1656084999/Screenshot_2022-06-24_at_4.16.53_pm_gb1leo.png "Venue research table")
+![A table with a list of venues, and a checklist of requirements as well as general pros and cons](https://res.cloudinary.com/dgen7ni45/image/upload/v1658567522/Screenshot_2022-07-23_at_10.11.35_am_ujzqfr.png "Venue research table")
 
 You can see some of the research in the above table but we are hoping we should be able to publish a much larger venue research document soon that has much more information about nearly all venues in Glasgow. 
 
