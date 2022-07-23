@@ -10,6 +10,8 @@ category:
 ---
 <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?light=1&feed=%2FGUTS_Glasgow%2Fh3l3naguts%2F" frameborder="0" ></iframe>
 
+[alternate download link](https://drive.google.com/file/d/1m6jTMnmYNcxmaL_9_5x6wRBWJ013aFBC/view?usp=sharing)
+
 
 
 H3l3NA\
