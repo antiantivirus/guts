@@ -10,7 +10,7 @@ category:
 ---
 <iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?light=1&feed=%2FGUTS_Glasgow%2Feffua-guts%2F" frameborder="0" ></iframe>
 
-
+[alternate download link](https://drive.google.com/file/d/1Tsck-EockKHNbThXuiBOh6O2YSh2TLcV/view?usp=sharing)
 
 EFFUA\
 Recorded live at GUTS\
