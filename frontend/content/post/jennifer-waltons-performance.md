@@ -1,5 +1,5 @@
 ---
-title: Jennifer Walton's Performance
+title: Jennifer Walton @ GUTS
 date: 2022-07-23T09:13:08.460Z
 subheading: A recording of Jennifer's set from GUTS
 mainImage:
