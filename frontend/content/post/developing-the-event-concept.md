@@ -7,7 +7,7 @@ mainImage:
   alt: The word GUTS written in fleshy looking pink writing
 category:
   - Budget
-  - Editorial
+  - Promo
 ---
 This project has shifted in scope and plan several times, first when we were preparing to pitch it to the people that were providing our funding and second as we were preparing to launch the project. In this article we will look at how we ended up where we are now and why. This project has not concluded so none of these details are necessarily fixed and things may still change. 
 
