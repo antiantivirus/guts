@@ -31,7 +31,7 @@ export default ({
   methods: {
     introAnim(){
       this.$gsap.to(this.$refs.logo, { duration: 0, scale: 0, delay: 0 })
-      this.$gsap.to(this.$refs.logo, { duration: 0.75, scale: 1, delay: 0.5, ease: 'Back.easeOut' })
+      this.$gsap.to(this.$refs.logo, { duration: 0.75, scale: 1, delay: 0.5, xPercent: -50, ease: 'Back.easeOut' })
       // this.$gsap.to(this.$refs.logo, { duration: 0.5, scale: 2, delay: 0 })
       this.$gsap.to(this.$refs.logo, { duration: 2, y: this.yTransformAmount, xPercent: -50, delay: 1.5, ease: 'Back.easeOut' })
       // this.$gsap.to(this.$refs.logo, { duration: 1, scale: 1, delay: 0.5 })
