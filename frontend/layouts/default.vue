@@ -33,7 +33,7 @@ export default ({
       this.$gsap.to(this.$refs.logo, { duration: 0, scale: 0, delay: 0 })
       this.$gsap.to(this.$refs.logo, { duration: 0.75, scale: 1, delay: 0.5, ease: 'Back.easeOut' })
       // this.$gsap.to(this.$refs.logo, { duration: 0.5, scale: 2, delay: 0 })
-      this.$gsap.to(this.$refs.logo, { duration: 2, y: this.yTransformAmount, delay: 1.5, ease: 'Back.easeOut' })
+      this.$gsap.to(this.$refs.logo, { duration: 2, y: this.yTransformAmount, xPercent: -50, delay: 1.5, ease: 'Back.easeOut' })
       // this.$gsap.to(this.$refs.logo, { duration: 1, scale: 1, delay: 0.5 })
       this.$gsap.to(this.$refs.content, { duration: 0.5, visibility:"visible", opacity: 1.5, delay: 2.5 })
       // this.$gsap.to(this.$refs.footer, { duration: 1, visibility:"visible", opacity: 1, delay: 1.75 })
